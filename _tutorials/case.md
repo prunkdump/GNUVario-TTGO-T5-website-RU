@@ -33,6 +33,9 @@ Place the antenna in the support provided in the bottom of the case.
 {% include tutoimg.md name="IMG_8831.JPG" %}
 {% include tutoimg.md name="IMG_8832.JPG" %}
 
+Make sure the antenna connector is not touching the GPS backup battery. This would cause a short circuit. Check again when closing the case.
+{% include tutoimg.md name="connecteur.jpeg" %}
+
 Place the speaker in the available bracket on the cover of the housing **without pushing it completely in**.
 {% include tutoimg.md name="IMG_8833.JPG" %}
 {% include tutoimg.md name="IMG_8834.JPG" %}
