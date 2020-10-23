@@ -1,47 +1,48 @@
 ---
 layout: page
-title: Description
-linkdesc: See the project
-linkmsg: GO !
+title: Описание
+linkdesc: Посмотреть проект
+linkmsg: Поехали !
 linktarget: "https://github.com/prunkdump/GNUVario-TTGO-T5"
 ---
-The GNUVario-E project is a collaborative effort to create a variometer using free and open hardware and software.
+Проект GNUVario-E - это совместная работа по созданию вариометра с использованием бесплатного и открытого исходного кода, а так же необходимого оборудования.
 
-Characteristics :
+Характеристики :
 ---------
-* High precision altitude with improved ms5611 code
-* High precision vertical speed with InvenSense accelerometer
-* Display on a 1.54 ”or 2.9" E-paper Waveshare screen: altitude, vertical speed, ground speed, ...
-* Ground speed and glide ratio with GPS
-* Flight tracking with SD card reader and GPS
-* Bluetooth communication with external device (coming soon)
-* Battery level
-* Update of vario in Wifi
-* Vario settings wifi updated
-* Wifi flight recovery
-* Multi screen
-* Sound configuration by curve (coming soon)
-* Screen settings (coming soon)
-* Deep sleep fonction
-* 3 push buttons
+* Высокоточное определение высоты с улучшеным кодом ms5611
+* Высокоточное определение вертикальной скорости с акселерометром InvenSense
+* Экран на электронных чернилах 1.54” или 2.9" отображающий: высоту, вертикальную скорость, скорость относительно земли...
+* Скорость относительно земли и аэродинамическое качество с GPS
+* Запись трека полета на SD карту при использовании GPS
+* Bluetooth для соединения с внешними устройствами (в разработке)
+* Уровень заряда аккумулятора
+* Обновление прошивки через Wifi
+* Изменение настроек через Wifi
+* Доступ к журналу полетов через Wifi
+* Несколько экранов
+* Настройка звука спомощью кривой (в разработке)
+* Настройки экранов (в разработке)
+* Функция сна
+* 3 кнопки управления
 
 Links :
 ---------
 * [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5)
-* [Forum](http://www.parapentiste.info/forum/developpements-hardware-software/diy-gnuvario-variometre-opensource-openhardware-arduino-t48334.0.html;new;topicseen#new)
-* [Website](https://prunkdump.github.io/GNUVario-TTGO-T5-website/)
-* [Resource Site](http://gnuvario-e.yj.fr/#)
+* [Форум](http://www.parapentiste.info/forum/developpements-hardware-software/diy-gnuvario-variometre-opensource-openhardware-arduino-t48334.0.html;new;topicseen#new)
+* [Сайт](https://prunkdump.github.io/GNUVario-TTGO-T5-website/)
+* [Загрузки](http://gnuvario-e.yj.fr/#)
 
-Contribution :
+Разработчики :
 ----------
 
-* jeromev Developer / AGL
-* jpg63 Developer  / Website       
-* pixyz Developer / Website developer       
-* prunkdump Developer / initial source code        
-* ratamuse  PCB / 3d case design / Developer / Contibution to website     
-* vmath54  Contibution to website      
+* jeromev Разработчик / AGL
+* jpg63 Разработчик  / Website       
+* pixyz Разработчик / Разработчик сайта       
+* prunkdump Разработчик / Отец основатель всего проекта        
+* ratamuse PCB / 3d разработка корпуса / Разработчик / Поддержка сайта    
+* vmath54 Поддержка сайта    
+* AlexSA6002 Русская поддержка 
 
-Version :
+Версия :
 ---------
 * Website 1.06n
