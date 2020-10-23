@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   GNUVario-E is a project to distribute open source firmware
    and an open hardware variometer based on the ESP32 platform.
 google_analytics: UA-171675366-1  
-baseurl: "/GNUVario-TTGO-T5-website-EN" # the subpath of your site, e.g. /blog
+baseurl: "/GNUVario-TTGO-T5-website-RU" # the subpath of your site, e.g. /blog
 #baseurl: "/GNUVarioFR-E" # the subpath of your site, e.g. /blog
 #baseurl: "/GNUVario-TTGO-T5-website" # the subpath of your site, e.g. /blog
 
@@ -29,7 +29,8 @@ url: "https://prunkdump.github.io" # the base hostname & protocol for your site,
 #twitter_username: 
 #github_username:  prunkdump
 #github_username:  jpg63
-github_username:  ratamuse
+#github_username:  ratamuse
+github_username: AlexSA6002
 
 collections:
   - materiel
