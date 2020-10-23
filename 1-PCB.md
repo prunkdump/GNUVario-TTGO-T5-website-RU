@@ -1,12 +1,12 @@
 ---
 layout: materiel
-title: Hardware
-description: Introduction
-linkdesc: PCB files
-linkmsg: Find !
+title: Оборудование
+description: Вступление
+linkdesc: PCB файлы
+linkmsg: Скачать !
 linktarget: "http://gnuvario-e.yj.fr/fichier/GnuVarioE_JLCPCB.zip"
 ---
 
-This chapter will present the material necessary for the manufacture of Gnuvario-E
+В этой граве будет представлена информация необходимая для изготовления Gnuvario-E
 
 {% include materielimg.md name="IMG_8783.JPG" %}

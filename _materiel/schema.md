@@ -1,12 +1,12 @@
 ---
 step: 1
-title: Hardware
-description: PCB schematic
+title: Оборудование
+description: Принципиальная схема
 ---
 
 ![GNUVario-E schematic]({{ '/assets/schematic/schematic.jpg' | relative_url }})
 
-Download [here]({{ '/assets/schematic/schematic.pdf' | relative_url }}).
+Скачать [здесь]({{ '/assets/schematic/schematic.pdf' | relative_url }}).
 
 
 

@@ -1,22 +1,22 @@
 ---
 step: 2
-title: Hardware
-description: PCB
+title: Оборудование
+description: Печатная плата
 ---
 
-The GNUVario project provides the circuit board files to help you build the variometer.
+Проект GNUVario содержит файлы печатной платы, которые помогут собрать вариометр.
 
 
 ![Back GNUVario-E back side]({{ '/assets/pcb/PCB_back.jpg' | relative_url }})
 ![GNUVario-E front side]({{ '/assets/pcb/PCB_front.jpg' | relative_url }})
 
-Download the files for your PCB provider {% include lienfichier.md name="here" lien="fichier/GnuVarioE_JLCPCB.zip" %}
+Скачайте файлы для изготовления печатной платы {% include lienfichier.md name="тут" lien="fichier/GnuVarioE_JLCPCB.zip" %}
 
-PCB size :
-* Width  : 44 mm
-* Lenth : 100 mm 
-* Tickness : 1.6 mm
+Размер платы :
+* Ширина  : 44 mm
+* Длинна : 100 mm 
+* Толщина : 1.6 mm
 
-Designed with [KiCad](http://kicad-pcb.org/) 
+Разработано на [KiCad](http://kicad-pcb.org/) 
 
-Download the Kicad files {% include lienfichier.md name="here" lien="fichier/GnuVarioE_PCB.zip" %}
+Скачать Kicad файлы {% include lienfichier.md name="тут" lien="fichier/GnuVarioE_PCB.zip" %}
