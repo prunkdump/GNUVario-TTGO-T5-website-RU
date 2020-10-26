@@ -1,7 +1,7 @@
 ---
 layout: materiel
 title: Оборудование
-description: Вступление
+description: Introduction
 linkdesc: PCB файлы
 linkmsg: Скачать !
 linktarget: "http://gnuvario-e.yj.fr/fichier/GnuVarioE_JLCPCB.zip"
