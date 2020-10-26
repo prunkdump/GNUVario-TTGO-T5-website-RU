@@ -4,7 +4,7 @@ layout: page
   <div class="materiel_summary">
     <h2>Описание материалов</h2>
     <ul>
-      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 1-PCB.md %}">Вступление</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
+      <li>{% if page.description == "Вступление" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 1-PCB.md %}">Вступление</a>{% if page.description == "Вступление" %}</strong>{% endif %}</li>
       {%- assign materiel_steps = site.materiel | sort : 'step' -%}
       {%- for materiel_step in materiel_steps -%}
         {%- if forloop.first -%}
@@ -33,10 +33,12 @@ layout: page
   </div>
 
   <div class="tuto_nav">
+      <a href="{{ site.baseurl }}{% link 1-PCB.md %}" class="materiel_home">Первая страница</a>
+      
       {%- if prev_step -%}
       <a href="{{ prev_step.url | relative_url }}" class="materiel_previous">< Предыдущая</a>
       {%- endif -%}
-      <a href="{{ site.baseurl }}{% link 1-PCB.md %}" class="materiel_home">Первая страница</a>
+
       {%- if next_step -%}
       <a href="{{ next_step.url | relative_url }}" class="materiel_next">Следующая ></a>
       {%- else -%}
