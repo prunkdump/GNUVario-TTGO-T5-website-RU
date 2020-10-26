@@ -1,7 +1,7 @@
 ---
 step: 1
 title: Оборудование
-description: PCB schematic
+description: Принципиальная схема
 ---
 
 ![GNUVario-E schematic]({{ '/assets/schematic/schematic.jpg' | relative_url }})

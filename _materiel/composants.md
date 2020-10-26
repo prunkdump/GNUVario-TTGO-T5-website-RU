@@ -1,7 +1,7 @@
 ---
 step: 3
 title: Оборудование
-description: Components
+description: Компоненты
 ---
 
 * Lilygo TTGO-T5 v2.4 1.54'' экран ( т.е., TTG T5 v2.4) 

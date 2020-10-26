@@ -33,12 +33,10 @@ layout: page
   </div>
 
   <div class="tuto_nav">
-      <a href="{{ site.baseurl }}{% link 1-PCB.md %}" class="materiel_home">Первая страница</a>
-
       {%- if prev_step -%}
       <a href="{{ prev_step.url | relative_url }}" class="materiel_previous">< Предыдущая</a>
       {%- endif -%}
-
+      <a href="{{ site.baseurl }}{% link 1-PCB.md %}" class="materiel_home">Первая страница</a>
       {%- if next_step -%}
       <a href="{{ next_step.url | relative_url }}" class="materiel_next">Следующая ></a>
       {%- else -%}
