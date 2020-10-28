@@ -53,7 +53,7 @@ The distance and speed of retraction будут зависеть от вашег
 
 {% include slicerimg.md name="top 7.jpg" %}
 
-**"Infill" tab:**
+**Вкладка "Infill":**
 
 Для вашей выгоды здесь 40% заполнение материала прямыми линиями.
 
