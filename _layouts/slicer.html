@@ -3,7 +3,7 @@ layout: page
 ---
   <div class="slicer_summary">
     <h2>Распечатайте ваш корпус</h2>
-    <h2>Print or have your case printed</h2>
+    
     <ul>
       <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 2-boitier3d.md %}">Вступление</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
       {%- assign slicer_steps = site.slicer | sort : 'step' -%}
@@ -34,7 +34,7 @@ layout: page
     {%- else-%}
       <h2>{{ page.description }}</h2>
     {%- endif -%}
-    
+
     {{ content }}
   </div>
 
