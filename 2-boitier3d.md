@@ -1,6 +1,6 @@
 ---
 layout: slicer
-title: 3D Корпус
+title: 3D_Корпус
 description: Introduction
 ---
 
