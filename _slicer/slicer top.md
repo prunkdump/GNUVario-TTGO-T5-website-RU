@@ -1,123 +1,118 @@
 ---
 step: 3
-title: 3Dcase
-description: Top case
+title: 3D Корпусcase
+description: Верхняя крышка
 ---
-[FFF profil download]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})
+[FFF profil скачать]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})
 
-To create a nice rounded edge, the ideal is to print the upper case in layers of 0.1mm. But in order to reduce the printing time and have better grip of the first layers, we will create several printing steps.
-We will also see how to create and optimize the supports for easy removal.
+Чтобы получился красивый закругленный край, лучше всего печатать верхнюю крышку слоями по 0,1 мм. Но чтобы сократить время печати и лучше удерживать первые слои, мы создадим несколько этапов печати. Мы также увидим, как создавать и оптимизировать опоры для легкого удаления.
 
 {% include slicerimg.md name="Top 1.jpg" %}
 
-# **Generate and optimize the printing of supports material:**
+# **Создавайте и оптимизируйте печать опор:**
 
-
-Open the "Cross-section view" and "Support generation" windows. Put 1mm at "Support pillar resolution" and 40 ° at "Max overhang angle". Then create the supports by pressing on "Generate automatic supports"
+Откройте окна "Cross-section view" и "Support generation". Установите 1мм на "Support pillar resolution" и 40° на "Max overhang angle". Затем создайте опоры, нажав "Generate automatic supports".
 
 {% include slicerimg.md name="top 2.jpg" %}
 
-Then put yourself in top view and set the Z axis of the cross section to 7mm. You will be able to remove the supports in the screw holes by pressing "delete the current supports" and by clicking on each stick in the holes.
+Затем включите вид сверху и установите ось Z поперечного сечения (cross section) на 7 мм. Вы сможете удалить опоры из отверстий под винты, нажав "delete the current supports" и щелкнув каждую палку в отверстиях.
 
 {% include slicerimg.md name="top 3.jpg" %}
 
-It now remains to optimize the supports in the notch of the speaker. Adjust the view of the box to see the supports clearly then remove the supports as on the image below (left click of the mouse for the view rotation, right click for the translation). They will be much easier to remove.
-
+Теперь осталось оптимизировать опоры в выемке динамика. Отрегулируйте вид, чтобы четко видеть опоры, затем удалите опоры, как показано на изображении ниже (щелкните левой кнопкой мыши для поворота вида, щелкните правой кнопкой мыши для перемещения). Их будет намного легче удалить.
 
 {% include slicerimg.md name="top 4.jpg" %}
 
 
-## **Processes management**
-   
-The idea is to cut the print into several slices by changing the settings according to the height. 
+## **Управление процессами**
 
-In this example, we have 3 processes. 
+Идея состоит в том, чтобы разрезать отпечаток на несколько частей, изменив настройки по высоте.
+
+В этом примере у нас есть 3 процесса.
+
  
-## **Process1:**
+## **Процесс 1:**
 
-This is to adjust the first layers so that they hang well on the tray.
+Это необходимо для того, чтобы первые слои хорошо ложились.
 
-**"Extruder" tab:** 
+**Вкладка "Extruder":** 
 
-The distance and speed of retraction will depend on your printer. The vertical retraction elevator allows the nozzle to be lifted a little after a retraction and thus avoid touching the part during a movement. 
+The distance and speed of retraction будут зависеть от вашего принтера. The vertical retraction elevator позволяет немного приподнять сопло таким образом, чтоб избежать касания детали во время движения.
 
 {% include slicerimg.md name="top 5.jpg" %}
 
-**"Layer" tab**
+**Вкладка "Layer":**
 
-We start with 0.2mm layers for this piece. With a first layer height of 150%, the first layer will be 0.3mm. A speed of 20% compared to the overall printing speed allows good support of the supports.
+Мы начинаем со слоями 0,2мм для этой детали. При высоте первого слоя 150%, первый слой будет 0,3мм. Скорость 20% по сравнению с общей скоростью печати обеспечивает хорошую поддержку опор.
 
 {% include slicerimg.md name="top 6.jpg" %}
 
-**"Additions" tab**
+**Вкладка "Additions":**
 
-Adding a skirt around the room, just to purge the nozzle.
+Добавьте skirt вокруг корпуса, просто чтобы продуть сопло.
 
 {% include slicerimg.md name="top 7.jpg" %}
 
 **"Infill" tab:**
 
-At your convenience, here 40% material and straight filling.
+Для вашей выгоды здесь 40% заполнение материала прямыми линиями.
 
 {% include slicerimg.md name="top 8.jpg" %}
 
-**"Support" tab**
+**Вкладка "Support":**
 
-Important parameters for this part!
+Важные параметры для этой части!
 
-Choose 15% infill every 1 layer. It is the default filling of the supports. To increase the surface of the supports just before the printing of the case, put 4 dense layers of support with a filling percentage of 30%.
-In the "Distance to the part" section, choose 0.5mm horizontal offset from the part (the supports will not touch the part on the horizontal plane), "upper vertical separation layer" of 2 (the supports will no longer be printed two layers before printing the case and will be really easier to peel off!) and 1 lower vertical separation layer.
+Выбирайте 15% заполнение на каждый 1 слой. Это стандартное заполнение опор. Для увеличения поверхности опор непосредственно перед печатью крышки сделайте 4 плотных слоя опоры с процентом заполнения 30%. 
+В разделе "Distance to the part" выберите смещение по горизонтали от детали 0,5мм (опоры не будут касаться детали в горизонтальной плоскости), "upper vertical separation layer" 2 (опоры не будут печататься за два слоя. перед печатью крышки и их будет действительно легче снять!) и 1 "lower vertical separation layer".
  
 
 {% include slicerimg.md name="top 9.jpg" %}
 {% include slicerimg.md name="top 14.jpg" %}
 
-**"Temperature" tab**
+**Вкладка "Temperature":**
 
-Same settings as the bottom case. Plate 60°C, extruder 215°C
-
-
-**"Cooling" tab**
-
-Same settings as the bottom case.
+Те же настройки, что и для нижней крышки. Пластина 60 °C, экструдер 215 °C
 
 
-**"G-Code" tab**
+**Вкладка "Cooling":**
 
-Same settings as the bottom case.
+Те же настройки, что и для нижней крышки.
 
-**"Scripts" tab**
 
-Same settings as the bottom case.
+**Вкладка "G-Code":**
 
-**"Speeds" tab**
+Те же настройки, что и для нижней крышки.
 
-To maximize the chances of success, the first layers will be printed at a speed of 40mm/s
+**Вкладка "Scripts":**
+
+Те же настройки, что и для нижней крышки.
+
+**Вкладка "Speeds":**
+
+Чтобы увеличить шансы на удачный результат, первые слои будут печататься со скоростью 40 мм/с.
 
 {% include slicerimg.md name="top 11.jpg" %}
 
-**"Other" tab**
+**Вкладка "Other":**
 
-Same settings as the bottom case.
+Те же настройки, что и для нижней крышки.
 
-**"Avanced" tab**
+**Вкладка "Avanced":**
 
-It is in this window that we will choose the printing height on which each process will be applied. In our case, in the "Layer modification" window, we start the process 1 at 0mm and end it at 0.7mm. You can leave the other values as for the lower case.
+Именно в этом окне мы выберем высоту печати, на которой будет применяться каждый процесс. В нашем случае в окне "Layer modification" мы начинаем "процесс 1" с 0 мм и заканчиваем на 0,7 мм. Вы можете оставить другие значения, как для нижней крышки.
 
 {% include slicerimg.md name="top 13.jpg" %}
 
-## **Process 2**
+## **Процесс 2**
 
-To add a new process, simply click on "add". The previous process will be duplicated and you will just have to modify it.
+Чтобы добавить новый процесс, просто нажмите «Добавить». Предыдущий процесс будет продублирован, и вам просто нужно будет его изменить.
 
+Во втором процессе мы применим те же настройки, что и "процесс 1", за исключением скорости печати, которая будет изменена с 40 мм/с на 60 мм/с. Высота слоя всегда будет 0,2 мм, высота основного слоя будет изменена со 150% до 100%. На вкладке «Дополнительно» высота печати будет изменена таким образом, чтобы она начиналась с 0,7 мм (конец процесса 1) и заканчивалась на 5,9 мм.
 
-In this second process, we will apply the same settings as process 1 except for the printing speed which will be changed from 40mm / s to 60mm / s. The height of the main layer will always be 0.2mm but the height of the main layer will be changed from 150% to 100%.
-In the "Advanced" tab, the printing heights will be modified so as to start at 0.7mm (end of process 1) and stop at 5.9mm
+## **Процесс 3**
 
-## **Process 3**
-
-In this third process, we will use the same settings as process 2 except for the height of the layers which will drop from 0.2mm to 0.1mm. The curvature of the case will thus be more finely printed. In the "Advanced" tab, the printing heights will be modified to start at 5.9mm and finally, you can uncheck the "Stop printing at height" box.
-
+В третьем процессе мы будем использовать те же настройки, что и "процесс 2", за исключением высоты слоев, которая уменьшится с 0,2 мм до 0,1 мм. Таким образом, кривизна корпуса будет более четкой. На вкладке «Дополнительно» высота печати будет изменена, начиная с 5,9 мм, и, наконец, вы можете снять флажок "Stop printing at height".
 
 
 

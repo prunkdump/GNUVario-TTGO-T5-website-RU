@@ -1,96 +1,97 @@
 ---
 step: 2
-title: 3Dcase
-description: Bottom case
+title: 3D Корпус
+description: Нижняя крышка
 ---
 
-[FFF profil download]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_bas.fff' | relative_url }})
+[FFF profil скачать]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_bas.fff' | relative_url }})
 
-Once your file has been loaded into simplify3d, you will be able to change the profile settings to optimize printing.
+После того, как ваш файл будет загружен в simpleify3d, вы сможете изменить настройки профиля для оптимизации печати.
 
 
 {% include slicerimg.md name="Bottom_1.jpg" %}
 
 
-**"Extruder" tab:** 
+**Вкладка "Extruder":** 
 
 
-The distance and speed of retraction will depend on your printer. The vertical retraction elevator allows the nozzle to be lifted a little after a retraction and thus avoid touching the part during a movement.
+The distance and speed of retraction будут зависеть от вашего принтера. The vertical retraction elevator позволяет немного приподнять сопло таким образом, чтоб избежать касания детали во время движения.
 
 
 {% include slicerimg.md name="Bottom 2.jpg" %}
 
-**"Layer" tab**
+**Вкладка "Layer":**
 
-For this part, 0.2mm layers are a good compromise between speed and print quality. With a first layer height of 150%, the first layer will be 0.3mm. A speed of 20% compared to the overall printing speed allows good grip, in particular screw and strap turns.
+Для этой детали слои 0,2 мм - хороший компромисс между скоростью и качеством печати. При высоте первого слоя 150% первый слой будет 0,3 мм. Скорость 20% по сравнению с общей скоростью печати обеспечивает хорошее сцепление.
 
 
 {% include slicerimg.md name="Bottom 3.jpg" %}
 
-**"Additions" tab**
+**Вкладка "Additions":**
 
-Adding a skirt around the case, just to purge the nozzle.
-
+Добавьте skirt вокруг корпуса, просто чтобы продуть сопло.
 
 
 {% include slicerimg.md name="Bottom 4.jpg" %}
 
-**"Infill" tab:**
+**Вкладка "Infill":**
 
-Choice of 40% material and a honeycomb filling.
+Выберете 40% заполнение сотами (honeycomb).
 
 
 {% include slicerimg.md name="Bottom 5.jpg" %}
 
-**"Support" tab**
+**Вкладка "Support":**
 
-Not necessary for this case. You can uncheck the box.
+На этой вкладке можно все отключить. Так как поддержки тут не нужны.
 
 {% include slicerimg.md name="Bottom 6.jpg" %}
 
-**"Temperature" tab**
+**Вкладка "Temperature":**
 
-Here you set the extrusion temperature of the PLA (Shared Heater, here 215 ° C) and the temperature of the heating plate (Heated Bed, here 60 ° C)
+Здесь вы устанавливаете температуру сопла для PLA (Shared Heater, здесь 215 °C) и температуру стола (Heated Bed, здесь 60 °C).
+
 
 {% include slicerimg.md name="Bottom 7.jpg" %}
 
-**"Cooling" tab**
+**Вкладка "Cooling":**
 
-With PLA, leave the default values: first layer without fan, next layer, fan at 100%.
+Для PLA оставьте значения по умолчанию: первый слой без вентилятора, следующий слой, вентилятор на 100%.
 
 
 {% include slicerimg.md name="Bottom 8.jpg" %}
 
-**"G-Code" tab**
+**Вкладка "G-Code":**
 
-If you wish to use the downloadable profile at the top of the page, you can here modify the characteristics of your printer (Cartesian, delta, printing volume, etc.)
+Если вы хотите использовать загружаемый профиль вверху страницы, вы можете здесь изменить характеристики вашего принтера (Cartesian, delta, printing volume, итд.)
 
 
 {% include slicerimg.md name="Bottom 9.jpg" %}
 
-**"Scripts" tab**
+**Вкладка "Scripts":**
 
-Keep your printer's default scripts.
+Оставьте скрипты вашего принтера по умолчанию.
 
 
 {% include slicerimg.md name="Bottom 10.jpg" %}
 
-**"Speeds" tab**
+**Вкладка "Speeds":**
 
-The printing speed depends on the mechanical quality of your printer. At 60mm / s there should be no problems.
+Скорость печати зависит от качества вашего принтера. На 60мм/с проблем быть не должно.
+
 
 {% include slicerimg.md name="Bottom 11.jpg" %}
 
-**"Other" tab**
+**Вкладка "Other":**
 
-Adjust the size of your filament, price, density ....
+Установите диаметр вашего филамента, цену, плотность….
 
 
 {% include slicerimg.md name="Bottom 12.jpg" %}
 
-**"Advenced" tab**
+**Вкладка "Advenced":**
 
-Thin wall behavior: leave "Perimeter only" and "Allow filling of spaces".
+Thin wall behavior: оставьте "Perimeter only" и "Allow filling of spaces".
 
 {% include slicerimg.md name="Bottom 13.jpg" %}
 

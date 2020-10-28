@@ -1,18 +1,17 @@
 ---
 step: 1
-title: 3Dcase
-description: Print your case 
+title: 3D Корпус
+description: Печать вашего корпуса
 ---
 
-The print quality of your case will strongly depend on the settings you apply to your slicer software.
+Качество печати вашего корпуса будет сильно зависеть от настроек slicer'а.
 
-The main three are:
+Основные три:
 - [Cura](https://ultimaker.com/fr/software)
 - [Repetier](https://www.repetier.com/)
 - [Simplify3D](https://www.simplify3d.com/)
 
-Here we give settings that work rather well with Simplify3D on a Geeetech A20M printer.
-You can adapt them to your printer by modifying settings such as the distance and speed of retraction, size of the plate etc.
+Здесь мы приводим настройки, которые довольно хорошо работают с Simplify3D на принтере Geeetech A20M. Вы можете адаптировать их к своему принтеру, изменив основные настройки, такие как размер стола, подача и скорость печати итд.
 
 
 

@@ -28,7 +28,12 @@ layout: page
   </div>
   
   <div class="tutorial">
-    <h2>{{ page.description }}</h2>
+    {%- if page.description == "Introduction" -%}
+      <h2>Вступление</h2>
+    {%- else-%}
+      <h2>{{ page.description }}</h2>
+    {%- endif -%}
+    
     {{ content }}
   </div>
 
