@@ -1,6 +1,6 @@
 ---
 step: 3
-title: 3D Корпусcase
+title: 3D_Корпус
 description: Верхняя крышка
 ---
 [FFF profil скачать]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})

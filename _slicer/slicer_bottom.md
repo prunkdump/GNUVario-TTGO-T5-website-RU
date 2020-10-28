@@ -1,6 +1,6 @@
 ---
 step: 2
-title: 3D Корпус
+title: 3D_Корпус
 description: Нижняя крышка
 ---
 

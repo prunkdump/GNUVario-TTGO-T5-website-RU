@@ -1,6 +1,6 @@
 ---
 step: 1
-title: 3D Корпус
+title: 3D_Корпус
 description: Печать вашего корпуса
 ---
 
