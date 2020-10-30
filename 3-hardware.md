@@ -1,9 +1,9 @@
 ---
 layout: tutorial
-title: Assembly 
+title: Сборка 
 description: Introduction
 ---
 
-This is a tutorial to help you build the variometer with specific components. If you want to use your own, just follow the schematic given on GitHub.
+Это руководство, поможет вам собрать вариометр с конкретными компонентами. Если вы хотите использовать свой аналоги, просто следуйте схеме, приведенной на GitHub.
 
 {% include tutoimg.md name="20191011_121646_resizeda.jpg" %}

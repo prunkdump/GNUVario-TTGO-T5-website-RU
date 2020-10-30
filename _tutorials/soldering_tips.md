@@ -1,24 +1,24 @@
 ---
 step: 1
-title: Assembly
-description: Some soldering tips
+title: Сборка
+description: Советы по пайке
 ---
 
-Here are some soldering tips before you start building the variometer.
+Посмотрите несколько советов по пайке, прежде чем вы начнете собирать вариометр.
 
-First **always check the placement of the component after soldering the first pin**. Once two pins of the component are soldered, it becomes very difficult to move or unsolder it. So always weld in three steps:
+Первое: **всегда проверяйте размещение компонента после пайки первого контакта**. После того, как два контакта компонента припаяны, становится очень трудно переместить или отпаять его. Поэтому всегда выполняйте пайку в три этапа:
 
-1. Solder just **one** pin
+1. Сначала припаяйте только **один** контакт
 {% include tutoimg.md name="stip1.JPG" %}
 {% include tutoimg.md name="stip2.JPG" %}
 
-2. Check the component position. If this does not seem good, heat the solder again while replacing it.
+2. Проверьте положение компонента. Если оно не устраивает, снова нагрейте и перемещайте его.
 {% include tutoimg.md name="stip3.JPG" %}
 
-3. When the placement is perfect, you can solder the other pins.
+3. Когда размещение будет идеальным, вы можете припаять другие контакты.
 {% include tutoimg.md name="stip4.JPG" %}
 
-After **do not hesitate to heat the solder sufficiently**. The components used are not very sensitive to temperature. And making a good quality weld is crucial. I recommend soldering each pin in two steps:
+Не бойтесь **как следует нагреть место пайки**. Используемые компоненты не очень чувствительны к температуре. А выполнение пайки хорошо имеет решающее значение. Я рекомендую паять каждый вывод в два этапа:
 
-1. Just apply a small amount of solder to make the contact between the two parts.
-2. Reheat the solder **at least 2 seconds** before applying the correct amount of solder.
+1. Просто нанесите небольшое количество припоя, чтобы обеспечить контакт между двумя частями.
+2. Затем повторно прогрейте контакт **не менее 2 секунд** и нанесите необходимое количество припоя.

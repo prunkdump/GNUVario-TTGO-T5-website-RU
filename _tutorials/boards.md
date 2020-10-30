@@ -1,67 +1,67 @@
 ---
 step: 2
-title: Assembly
-description: Modules soldering
+title: Сборка
+description: Пайка модулей
 ---
 
-Now take the MPU and the GPS:
+Теперь возьмем MPU и GPS::
 {% include tutoimg.md name="20191011_122119_resizeda.jpg" %}
 
-Protect the PCB contacts (face in contact with the boards) with Kapton Tape
+Защитите контакты печатной платы (сторону, соприкасающуюся с платами) с помощью Каптонового скотча.
 {% include tutoimg.md name="IMG_8734.JPG" %}
 {% include tutoimg.md name="IMG_8737.JPG" %}
 
-Place the connectors on top of the PCB (long side up).
+Поместите разъемы на верхнюю часть печатной платы (длинной стороной вверх).
 {% include tutoimg.md name="IMG_8742.JPG" %}
 
-Leaning on a hard surface, push in the pins
+Опираясь на твердую поверхность, вдавите контакты
 {% include tutoimg.md name="IMG_8743.JPG" %}
 {% include tutoimg.md name="IMG_8744.JPG" %}
 {% include tutoimg.md name="IMG_8745.JPG" %}
 
-Repeat for the second connector 
+Повторите для второго разъема
 {% include tutoimg.md name="IMG_8753.JPG" %}
 
-Fix the PCB with the battery
+Зафиксируйте плату
 {% include tutoimg.md name="IMG_8754.JPG" %}
 
-Start by soldering **one** pin, check its location.
+Начните пайку с **одного** контакта, проверьте расположение.
 {% include tutoimg.md name="IMG_8755.JPG" %}
 {% include tutoimg.md name="IMG_8756.JPG" %}
 {% include tutoimg.md name="IMG_8757.JPG" %}
 {% include tutoimg.md name="IMG_8758.JPG" %}
 {% include tutoimg.md name="IMG_8759.JPG" %}
 
-Solder the other pins. **Be very careful! Don't forget some of them**.
+Припаеваем остальные контакты. **Будь очень внимательным! Не пропусти ни одного**.
 {% include tutoimg.md name="IMG_8760.JPG" %}
 
-Cut the pins as close as possible to the welds.
+Обрежьте контакты как можно ближе к месту пайки.
 {% include tutoimg.md name="IMG_8761.JPG" %}
 {% include tutoimg.md name="IMG_8762.JPG" %}
 
-Remove the insulation using a thin screwdriver
+Удалите изолятор спомощью плоской отвертки.
 {% include tutoimg.md name="IMG_8763.JPG" %}
 {% include tutoimg.md name="IMG_8764.JPG" %}
 {% include tutoimg.md name="IMG_8765.JPG" %}
 
-Then place the MPU against the PCB like this:
+Затем поместите MPU на печатную плату следующим образом:
 {% include tutoimg.md name="IMG_8767.JPG" %}
 {% include tutoimg.md name="IMG_8768.JPG" %}
 {% include tutoimg.md name="20190818_091338a.jpg" %}
 {% include tutoimg.md name="20190818_091555a.jpg" %}
 
-Make sure all the cards are flat on the circuit board.
-Solder only **one** pin of the card, check its location.
+Убедитесь, что MPU лежит плоско на печатной плате. 
+Припаиваем только **один** контакт MPU, проверяем его расположение.
  
 {% include tutoimg.md name="IMG_8769.JPG" %}
 {% include tutoimg.md name="IMG_8770.JPG" %}
 {% include tutoimg.md name="IMG_8771.JPG" %}
 
-Solder the other pins. **Be very careful! Don't forget some of them**.
+Припаеваем остальные контакты. **Будь очень внимательным! Не пропусти ни одного**.
 {% include tutoimg.md name="IMG_8772.JPG" %}
 {% include tutoimg.md name="20190818_091800a.jpg" %}
 
-Repeat with the GPS
+Повторяем с GPS
 {% include tutoimg.md name="IMG_8773.JPG" %}
 {% include tutoimg.md name="IMG_8774.JPG" %}
 {% include tutoimg.md name="IMG_8775.JPG" %}

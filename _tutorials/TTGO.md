@@ -1,29 +1,29 @@
 ---
 step: 3
-title: Assembly
-description: TTGO-T5 board soldering
+title: Сборка
+description: Пайка платы TTGO-T5
 ---
 
-Before soldering the TTGO card, you must prepare it
+Перед пайкой платы TTGO, вы должны подготовить ее.
 
 
-To start, desolder the speaker
+Для начала, отпаяйте динамик.
 {% include tutoimg.md name="IMG_8780.JPG" %}
 {% include tutoimg.md name="IMG_8781.JPG" %}
 {% include tutoimg.md name="IMG_8782.JPG" %}
 
-The second step will be to install the TTGO card on the PCB
+Следующим шагом нужно установить плату TTGO на печатную плату.
 {% include tutoimg.md name="IMG_8783.JPG" %}
 
-Place the PCB in the bottom of the case
+Поместите печатную плату в нижнюю часть корпуса
 {% include tutoimg.md name="IMG_8785.JPG" %}
 {% include tutoimg.md name="IMG_8786.JPG" %}
 
-Place the board
+Установите плату TTGO
 {% include tutoimg.md name="IMG_8788.JPG" %}
 {% include tutoimg.md name="IMG_8790.JPG" %}
 
-Fix it with hot glue when it is well in place on its support
+Зафиксируйте все с помощью клеевого пистолета, когда установите все как надо.
 {% include tutoimg.md name="IMG_8791.JPG" %}
 {% include tutoimg.md name="IMG_8792.JPG" %}
 {% include tutoimg.md name="IMG_8793.JPG" %}
@@ -31,13 +31,13 @@ Fix it with hot glue when it is well in place on its support
 {% include tutoimg.md name="IMG_8795.JPG" %}
 {% include tutoimg.md name="IMG_8796.JPG" %}
 
-Solder **one** pin of the board, check its location and solder the opposite pin.
+Припаяйте **один** контакт платы, проверьте ее расположение и припаяйте остальные.
 {% include tutoimg.md name="IMG_8797.JPG" %}
 {% include tutoimg.md name="IMG_8798.JPG" %}
 
-TFinish by soldering the other pins. **Be very careful! Don't forget some of them**.
+Закончив паять остальные контакты. **Проверь, не забыл ли какие то из них**.
 {% include tutoimg.md name="IMG_8799.JPG" %}
 
-Cut the pins as close as possible to the welds
+Обрежьте контакты как можно ближе к месту пайки.
 {% include tutoimg.md name="IMG_8800.JPG" %}
 {% include tutoimg.md name="IMG_8801.JPG" %}

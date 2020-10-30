@@ -1,16 +1,16 @@
 ---
 step: 5
-title: Assembly
-description: Battery preparation
+title: Сборка
+description: Подготовка батареи
 ---
 
-To complete your GnuVario-E, you must solder the 2-pin connector to the battery.
-You can use quick connectors if you wish.
-**Beware of polarities**
+Чтобы закончить GnuVario-E, вы должны припаять 2-контактный разъем к батарее.
+При желании можно использовать быстрые соединители. 
+**Соблюдайте полярность**
 {% include tutoimg.md name="20191011_130918_resizeda.jpg" %}
 {% include tutoimg.md name="20191011_131403_resizeda.jpg" %}
 
-You can also directly solder the wires from the connector to the battery.
+Вы так же можете припаять провода от разьема напрямую к батарее.
 {% include tutoimg.md name="IMG_8806.JPG" %}
 {% include tutoimg.md name="IMG_8808.JPG" %}
 {% include tutoimg.md name="IMG_8809.JPG" %}
