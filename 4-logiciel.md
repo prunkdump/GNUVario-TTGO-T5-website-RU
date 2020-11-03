@@ -1,12 +1,12 @@
 ---
 layout: logiciel
-title: Firmware
+title: Прошивка
 description: Introduction
-linkdesc: GNUVario-E firmware
-linkmsg: Find !
+linkdesc: GNUVario-E прошивка
+linkmsg: Скачать !
 linktarget: "https://github.com/prunkdump/GNUVario-TTGO-T5/archive/master.zip"
 ---
 
-This chapter contains information relating to the Gnuvario-E firmware.
+В этой главе содержится информация о прошивке Gnuvario-E.
 
 {% include logicielimg.md name="firmware.jpg" %}

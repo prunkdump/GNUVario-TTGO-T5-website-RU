@@ -1,22 +1,22 @@
 ---
 step: 4
-title: Firmware
-description: Update via SDcard
+title: Прошивка
+description: Обновление с SDcard
 ---
 
-The Gnuvario firmware can be updated from the SD card.
-Here is the procedure.
+Прошивку Gnuvario можно обновить с SD карты.
+Вот алгоритм.
 
-It is of course necessary to obtain this firmware beforehand; either from the Gnuvario website, or by compiling the sources yourself.
+Конечно, необходимо заранее получить эту прошивку; либо с веб-сайта Gnuvario, либо скомпилировать из исходных кодов самостоятельно.
 
-This file must be copied to the root of the SD card, with the name ** update.bin **; here is an example of the contents of the SD card after this copying, in wifi mode:
+Этот файл необходимо скопировать в корень SD-карты с именем **update.bin**; вот пример содержимого SD-карты после этого копирования в режиме Wi-Fi:
 
 {% include logicielimg.md name="sdcardWithUpdate.bin.jpg"%}
 
-At the next restart, the Gnuvario will detect the presence of this update.bin file, and will update from this code; the message 'upgrade in progress' will appear on the screen during the update process (about one minute).
+При следующем запуске Gnuvario обнаружит наличие этого файла **update.bin** и выполнит обновление; сообщение «обновление в процессе» появится на экране во время процесса обновления (около одной минуты).
 
 {% include logicielimg.md name="upgradeBySDcard.jpg"%}
 
-Then, the Gnuvario will restart automatically and start normal operation.
+Затем Gnuvario автоматически перезапустится и начнет нормальную работу.
 
-**Please note**: at the end of the update process, the file **update.bin** is automatically deleted.
+**Обратите внимание**: по окончании процесса обновления файл **update.bin** автоматически удаляется.

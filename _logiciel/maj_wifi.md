@@ -1,29 +1,25 @@
 ---
 step: 5
-title: Firmware
-description: Wifi update
+title: Прошивка
+description: Обновление по Wifi
 ---
 
-The Gnuvario firmware can be updated in Wifi mode; either by downloading it directly from the Internet, or by downloading it from the computer.
+Прошивку Gnuvario можно обновить в режиме Wi-Fi; загрузив прямо из Интернета, либо загрузив с компьютера.
 
-To do this, you must start the vario in Wifi mode; see['manual']({{site.baseurl}}/manuel/wifi.html)
+Для этого необходимо переключить вариометр в режим Wi-Fi; см. ['руководство']({{site.baseurl}}/manuel/wifi.html)
 
-You must choose the 'Update' menu; the web page will indicate the current version, and offer an update, either online or locally:
+Вы должны выбрать меню «Обновить»; на веб-странице будет указана текущая версия и предложено обновление онлайн или локально:
 
 {%include logicielimg.md name="updateByWifi.jpg"%}
 
-### Web Update
+### Обновлене через интернет
 
-Two possible options: install a beta version (development version), or a stable version.
-Click on the desired option; the firmware will then be automatically downloaded from the Internet to the vario.
-Once the download is complete, the Gnuvario will update, then restart with the new version.
+Два возможных варианта: установить бета-версию (версия для разработки) или стабильную версию. Щелкните по желаемой опции; микропрограмма будет автоматически загружена из Интернета в вариометр. После завершения загрузки Gnuvario обновится, а затем перезапустится с новой версией.
 
-**Note:** the pages of the embedded website (located on the SD card, folder /www) are also updated during this operation.
+**Примечание:** страницы встроенного веб-сайта (расположенного на SD-карте, папка /www) также обновляются во время этой операции.
 
-### Local update
+### Локальное обновление
 
-You must select the firmware file by clicking on the 'browse' button; then download it on the vario by clicking on the 'Send' button.
-The Gnuvario will update from this file, then restart.
+Вы должны выбрать файл прошивки, нажав кнопку «Browse»; затем загрузите его в вариометр, нажав кнопку «Send». Gnuvario обновится из этого файла, а затем перезапустится.
 
-**Please note:** during this operation, only the Gnuvario firmware is updated.
-Then think about manually updating the /www folder on the SD card.
+**Обратите внимание:** во время этой операции обновляется только прошивка Gnuvario. Затем необходимо вручную обновить папку /www на SD-карте.

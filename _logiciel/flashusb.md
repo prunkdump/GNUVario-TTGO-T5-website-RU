@@ -1,30 +1,29 @@
 ---
 step: 3
-title: Firmware
-description: First update
+title: Прошивка
+description: Первое обновление
 ---
 
-Before you can use Gnuvario-E you must install the software and prepare the SD card
+Перед тем как вы сможете использовать Gnuvario-E, необходимо загрузить прошивку и подготовить SD карту.
 
-### SD card preparation #
-On a blank MicroSD card formatted in Fat16 or 32, copy the contents of the RootSD folder to the root of the SD card.   
+### Подготовка SD карты #
+На пустую MicroSD карту, отформатированую в Fat16 или 32, скопировать содержимое папки RootSD в корень SD карточки.
 
-### Gnuvario-E update #   
-Before updating the vario you must download and install the flash download tools from Espressif
+### Обновление Gnuvario-E #   
+Перед обновлением вариометра вы должны загруть и установить flash download tools от Espressif
 
 Flash Download Tools : <https://www.espressif.com/en/support/download/other-tools>
 
-Switch on the Gnuvario-E without the SD card; **then** connect it to the PC by the usb port. The PC will see the vario as a serial port; for example, COM3.
+Включите Gnuvario-E без SD-карты; затем подключите его к ПК через порт usb. ПК увидит вариометр как последовательный порт; например, COM3.
 
-Run flash_download_tools.exe; choose the option 'ESP32 DownloadTool'.
+Запустите flash_download_tools.exe; выберите «ESP32 DownloadTool».
 
-Then choose the last .bin file, using the following parameters (choose the COM port corresponding to the vario):
+Затем выберите скаченный .bin файл, используя следующие параметры (выберите COM-порт, соответствующий вариометру):
 
 ![Flash_download_tools]({{'/assets/manuel_img/flashTools.jpg' | relative_url}})
 
-Enter the value 0x10000 after the .bin file
+Введите значение 0x10000 после .bin фаила.
 
-Press the "START" button; the green square 'IDLE' then indicates 'Download', and a green progress bar is displayed at the bottom of the utility.
-Writing the software takes about 2 minutes; when finished, the green square displays 'FINISH'.
+Нажмите кнопку «START»; в зеленом квадрате «IDLE» указывает на загрузку, а в нижней части утилиты отображается зеленый статус бар выполнения. Загрузка программы занимает около 2 минут; Когда она закончится, в зеленом квадрате отобразится «FINISH».
 
-You can switch off the Gnuvario-E, disconnect the usb port, insert the sdcard and restart the vario.
+Вы можете выключить Gnuvario-E, отключить USB-порт, вставить SD-карту и перезапустить вариометр.

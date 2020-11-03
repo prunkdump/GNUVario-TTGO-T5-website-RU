@@ -1,61 +1,61 @@
 ---
 step: 1
-title: Firmware
-description: Architecture
+title: Прошивка
+description: Структура
 ---
 
-Here is the general description of the Gnuvario-E firmware
+Общее описание прошивки Gnuvario-E
 
-To operate the Gnuvario-E needs a firmware and an SD card with a particular organization
+Для работы Gnuvario-E необходима прошивка и соответсвующие ей файлы на SD карте
 
-**Firmware**      
+**Прошивка**      
    
-There are several firmware versions which correspond to the different screen versions and to beta or stable versions
+Есть несколько версий прошивки, которые соответствуют разным размерам экрана, бета или стабильная версия.
    
--- For GNUVario-E with 1.54'' screen     --
+-- Для GNUVario-E с 1.54'' экраном     --
 
 Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario154.bin" %}     
 Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario154b.bin" %} 
 
--- For GNUVario-E with 2.90'' screen in lanscape mode   --
+-- Для GNUVario-E с 2.90'' экраном в горизонтальной ориентации --
 
 Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario290.bin" %}      
 Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario290b.bin" %} 
 
--- For GNUVario-E with 2.90'' screen in portrait mode-- 
+-- Для  GNUVario-E с 2.90'' экраном в портретной ориентации -- 
 
 Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario291.bin" %}    
 Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario291b.bin" %}       
 
 **SD Card**     
 
-The SD card embeds a website and configuration files. There is a tree structure for the stable version and one for the beta version
+На SD карте находятся файлы web интерфейса и файлы конфигурации. Существует две версии SD карт, для Бета и для стабильной.
 
-RootSD for {% include lienfichier.md name="Stable firmware" lien="fichier/RootSD_Stable.zip" %}     
-RootSD for {% include lienfichier.md name="Beta firmware" lien="fichier/RootSD_Beta.zip" %}    
+RootSD для {% include lienfichier.md name="Stable firmware" lien="fichier/RootSD_Stable.zip" %}     
+RootSD для {% include lienfichier.md name="Beta firmware" lien="fichier/RootSD_Beta.zip" %}    
 
-**www folder**     
+**www папка**     
 
-On the SD card, the www folder contains the files necessary for the operation of the embedded website. There is one version for the stable version and one for the beta version.
+Папка WWW на SD карте содержит файлы необходимые для WEB интерфейса. Так же существует две версии Бета и стабильная.
 
--- The versions for the 1.54 '' screen     --
+-- Версия для 1.54 '' экрана     --
    
-www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario154" %}     
-www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario154b" %}    
+www для {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario154" %}     
+www для {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario154b" %}    
 
--- The versions for the 2.90 '' screen in landscape mode   --   
+-- Версия для 2.90 '' экрана в горизонтальной ориентации --   
    
-www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario290" %}     
-www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario290b" %}    
+www для {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario290" %}     
+www для {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario290b" %}    
 
---  The 2.90 '' screen versions in portrait mode   --    
+-- Версия для 2.90 '' экрана в портретной ориентации --    
 
-www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario291" %}     
-www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario291b" %}    
+www для {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario291" %}     
+www для {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario291b" %}    
 
-**AGL folder**
+**AGL папка**
 
-On the SD card, the ALG folder contains the files necessary for the AGL calculations (part of france, belgium, italia, swizerland and germany).
+На SD карте папка ALG содержит файлы, необходимые для расчетов AGL (часть Франции, Бельгии, Италии, Швейцарии и Германии).
 {% include logicielimg.md name="AGL.jpg" %}
 
-[Download here the files for your region](https://vps.skybean.eu/agl/)
+[Скачайте здесь файлы для вашего региона](https://vps.skybean.eu/agl/)

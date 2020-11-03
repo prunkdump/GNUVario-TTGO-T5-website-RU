@@ -1,15 +1,15 @@
 ---
 step: 7
-title: Firmware
-description: Planned developments
+title: Прошивка
+description: Планируемые разработки
 ---
 
- - ADDED - Graphic compass
- - ADDED - Airspace management
- - ADDED - Wind direction and speed
- - CORRECTION - BT management
- - IMPROVEMENT - Sound configuration via a curve
- - IMPROVEMENT - Personalization of screens
+ - Добавить - Графический компас
+ - Добавить - Карту воздушного пространства
+ - Добавить - Направление и скорость ветраWind direction and speed
+ - Исправление - Взаимодействия BT
+ - Улучшение - Настройка звука через кривую
+ - Улучшение - Персонализация экранов
  
 
  
