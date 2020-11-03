@@ -1,12 +1,12 @@
 ---
 layout: code
-title: Code
+title: Код
 description: Introduction
-linkdesc: GNUVario source codes
-linkmsg: Find !
+linkdesc: GNUVario исходные Коды
+linkmsg: Скачать !
 linktarget:  "https://github.com/prunkdump/GNUVario-TTGO-T5"
 ---
 
-This chapter contains information relating to the Gnuvario-E source codes.
+Эта глава содержит информацию о исходном коде Gnuvario-E.
 
 {% include codeimg.md name="firmware.jpg" %}

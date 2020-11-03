@@ -1,15 +1,15 @@
 ---
 step: 6
-description: Librairies
+description: Библиотеки
 ---
 
-This chapter will describe the libraries used
+В этой главе будут описаны используемые библиотеки.
 
-**Sensor management**
+**Управление датчиками**
 
 AccelCalibrator: MPU calibration
 
-IntTW: Management
+IntTW: Управление
 
 kalmanvert: Kalman filter management
 
@@ -29,7 +29,7 @@ VarioCalibration: Management of sensor calibration
 
 vertaccel:
 
-**Screen management**
+**Управление экраном**
 
 Adafruit_GFX_Library: Library used for screen management
 
@@ -39,7 +39,7 @@ figure: Management of the display of numeric fields
 
 various screen: Screen management
 
-**Parameter management**
+**PУправление параметрами**
 
 ArduinoJson: Library for managing json files
 
@@ -49,7 +49,7 @@ HardwareConfigESP32: Management of hardware parameters related to ESP32
 
 VarioSetting: Management of user parameters
 
-**Device management**
+**Управление устройством**
 
 beeper: Vario sound management
 

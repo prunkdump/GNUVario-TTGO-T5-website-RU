@@ -1,31 +1,32 @@
 ---
 step: 3
-description: Retrieving the code
+description: Получение кода
 ---
 
-The simple method: download the zip file
+Самый простой способ: скачать zip файл.
 ----------------------------------
 
-The source code can be downloaded directly as a zip file on [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5). Just click on **Clone or download** and **Download zip**.
+Исходный код можно скачать напрямую как zip файл с [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5). Просто нажмите **Clone or download** и **Download zip**.
 
 ![GitHub download zip]({{"/assets/code_img/code1.jpg" | absolute_url}})
 
-Extract the zip to the location of your choice. This will create a ** Gnuvario-TTGO-T5-master ** directory.
+Распакуйте ZIP в любое место на ваш выбор. Там создастся папвка **Gnuvario-TTGO-T5-master**.
 
 ![GitHub zip download]({{"/assets/code_img/code2.jpg" | absolute_url}})
 
-The Arduino IDE installation normally created a **Arduino** directory in your personal folder. <BR> Make sure this folder is empty and copy the Sources \ Beta Code \ Gnuvario-E and Sources \ Beta folders Code \ libraries in the **Gnuvario-TTGO-T5-master** folder in the **Arduino** folder.
+При установке Arduino IDE обычно создается папка **Arduino** в вашей папке документов.<BR>
+Убедитесь, что эта папка пуста и скопируйте в нее Sources\Beta Code\Gnuvario-E и Sources\Beta Code\libraries из папки **Gnuvario-TTGO-T5-master**.
 
-**IMPORTANT**: In this Arduino folder, there must be only the files / libraries of the Gnuvario-E project.
+**ВАЖНО**: В этой папке должны быть только файлы библиотек и проекта Gnuvario-E.
 
 ![GitHub zip download]({{"/assets/code_img/dossierRootArduino.jpg" | absolute_url}})
 
-The advanced method: using Git
+Другой способ: использовать Git
 -----------------------------
 
-You can also get the source code with [Git](https://git-scm.com/). This is a better approach because with Git, you can update the code while keeping your preferred settings.
+Вы так же можете получить исходный код используя [Git](https://git-scm.com/). Это лучший способ, потому что с Git вы можете обновить код, сохранив настройки. 
 
-So install Git and make sure the **Arduino** folder in your home directory is empty. With bash, go to the **Arduino** directory, clone the repository and create a branch for you.
+Так что установите Git и убедитесь, что папка **Arduino** в вашем домашнем каталоге пуста. С помощью bash перейдите в каталог **Arduino**, клонируйте репозиторий и создайте для себя ветку.
 
 {% highlight shell_session%}
 ~ $ cd Arduino
@@ -33,7 +34,7 @@ So install Git and make sure the **Arduino** folder in your home directory is em
 ~ / Arduino $ git checkout -b myversion
 {% endhighlight%}
 
-So, whenever you want to update the code, type the following commands from the **Arduino** directory. The first two lines save your changes. The next two lines download the changes from the main branch of GitHub. The last one applies the change to your version.
+Итак, всякий раз, когда вы хотите обновить код, введите следующие команды из каталога **Arduino**. Первые две строки сохраняют ваши изменения. Следующие две строки загружают изменения из основной ветки GitHub. Последний применяет изменения к вашей версии.
 
 {% highlight shell_session%}
 ~ / Arduino $ git add -A

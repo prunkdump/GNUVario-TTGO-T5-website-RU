@@ -1,17 +1,17 @@
 ---
 step: 7
-description: Debug
+description: Отладка
 ---
 
-This chapter will describe the debugging methods used in the Gnuvario-E code.
+В этой главе будут описаны способы отладки, используемые в коде Gnuvario-E.
 
-Over time, the display system for debugging information has evolved.
+Со временем система отображения отладочной информации развивалась.
 
-Today there are 3 methods implemented in the Gnuvario-E code.
+Сегодня в коде Gnuvario-E реализовано 3 способа.
 
-**Method 1**
+**Способ 1**
 
-Using the DebugConfig.h file and println
+Используя файл DebugConfig.h и println
       
 #define ENABLE_DEBUG
      
@@ -19,8 +19,8 @@ Using the DebugConfig.h file and println
       
 ENABLE_DEBUG allows to activate debugging.
      
-Then for each type of information to be traced, we define or not define them.
-The messages are displayed on the serial monitor by adding lines in the code.
+Затем для каждого типа отслеживаемой информации мы определяем или не определяем их.
+Сообщения отображаются в мониторе последовательного порта путем добавления строк в код.
 
 #ifdef SCREEN_DEBUG
     SerialPort.print ("Created task: Executing on core");
@@ -28,12 +28,12 @@ The messages are displayed on the serial monitor by adding lines in the code.
 #endif // SCREEN_DEBUG
 
 
-**Method 2**
+**Способ 2**
 
-Method 2 also uses the DebugConfig.h file but the poster is enriched with the name
-source file, variable names and line.
+В способе 2 также используется файл DebugConfig.h, но на выходе добавляется имя
+исходного файла, имена переменных и строка.
      
-At the start of each source file you must declare the use of debug functions.
+В начале каждого исходного файла вы должны объявить об использовании функций отладки.
 
 #include <DebugConfig.h>
        
@@ -46,36 +46,36 @@ At the start of each source file you must declare the use of debug functions.
 #define ARDUINOTRACE_SERIAL SerialPort
 #include <ArduinoTrace.h>
 
-Then it will be possible to use the functions:
+Затем можно будет использовать функции:
 
 TRACE();
-Displays line number, file name on serial monitor.
+Отображает номер строки, имя файла на мониторе последовательного порта.
       
 DUMP (someValue);
-Display on the serial monitor the variable as well as the file and the line.
+На мониторе последовательного порта отобразит переменную, а так же файл и строку.
       
 SDUMP (someText);
-Display text, file and line on serial monitor.
+Отображает текс, номер строки, имя файла на мониторе последовательного порта.
        
-**Method 3**
+**Способ 3**
              
-Method 3 records debugging information in the variolog.log file.
-The debug.cfg file described in the "configuration" section is used to select messages to display.
+Способ 3 записывает отладочную информацию в файл variolog.log.
+Файл debug.cfg, описанный в разделе «конфигурация», используется для выбора сообщений для отображения.
           
-You will have to use the variolog.h library.
+Вам нужно будет использовать библиотеку variolog.h.
 
-The possible functions are:
+Возможные функции:
 
 TRACELOG (type, module)
-Save the file and the line in the log file.
+Сохраняет файл и строку в файле журнала.
 
 DUMPLOG (type, module, variable)
-Save variable, file and line in log file.
+Сохраняет переменную, файл и строку в файле журнала.
 
 MESSLOG (type, module, Text)
-Record a message with the file and the line in the log file.
+Записывает сообщение с файлом и строкой в файле журнала.
 
 INFOLOG (Text)
-Save a text in the log file.      
+Сохраненяет текст в файле журнала.
                                                                                                     
 

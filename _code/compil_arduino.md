@@ -1,31 +1,28 @@
 ---
 step: 4
-description: Compiling with Arduino IDE 
+description: Компиляция с помощью Arduino IDE 
 ---
 
-Compile the code
+Компилирование кода
 -----------------
-Beforehand, you must start the vario without the sdcard, **then** connect it to the PC via the USB socket. It will be recognized by the PC as a COMx serial interface (example: COM4).
+Предварительно необходимо запустить вариометр без SD-карты, а **затем** подключить его к ПК через разъем USB. Он будет распознан ПК как последовательный порт COMx (пример: COM4).
 
-Now launch the Arduino IDE and open the sketch you want to compile. For example, the sketch **Gnuvario-E.ino**.
+Теперь запустите Arduino IDE и откройте скетч, который хотите скомпилировать. Например, **Gnuvario-E.ino**.
 
 ![GitHub download zip]({{"/assets/code_img/code5.jpg" | absolute_url}})
 
-In the **Tools** menu, **make sure you choose the right card**. The most classic of this project is the **ESP32 Dev Module**.
+В меню **Tools** убедитесь, что вы **выбрали правильную плату**. Самый классический для этого проекта - **ESP32 Dev Module**.
 
-and select partition scheme: **Minimal SPIFFS (1.9 MB APP with OTA / 180 KB SPIFFS)**
+и выберите схему разделов: **Minimal SPIFFS (1.9 MB APP with OTA / 180 KB SPIFFS)**
 
-Still in the **Tools** menu, choose the serial port corresponding to the vario.
+По-прежнему в меню **Tools** выберите последовательный порт, соответствующий вариометру.
 
 ![GitHub download zip]({{"/assets/code_img/ide1.jpg" | absolute_url}})
 
-Just click the **upload** button.
+Просто нажмите кнопку **upload**.
 
 ![GitHub download zip]({{"/assets/code_img/code7.jpg" | absolute_url}})
 
-This will launch the compilation of the code, then update the vario; the vario will restart alone at the end of the procedure.
+Это запустит компиляцию кода, а затем обновит варио; вариометр перезапустится самостоятельно в конце процедуры.
 
-You can now disconnect the USB output, stop the vario, insert the sdcard and start it again.
-
-
-
+Теперь вы можете отключить выход USB, выключить вариометр, вставить SD-карту и запустить его снова.
