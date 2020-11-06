@@ -2,9 +2,9 @@
 layout: page
 ---
   <div class="config_summary">
-    <h2>Gnuvario-E configuration</h2>
+    <h2>Конфигурация Gnuvario-E</h2>
     <ul>
-      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 6-configuration.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
+      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 6-configuration.md %}">Вступление</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
       {%- assign config_steps = site.config | sort : 'step' -%}
       {%- for config_step in config_steps -%}
         {%- if forloop.first -%}
@@ -28,20 +28,25 @@ layout: page
   </div>
   
   <div class="tutorial">
-    <h2>{{ page.description }}</h2>
+    {%- if page.description == "Introduction" -%}
+      <h2>Вступление</h2>
+    {%- else-%}
+      <h2>{{ page.description }}</h2>
+    {%- endif -%}
+
     {{ content }}
   </div>
 
   <div class="tuto_nav">
       {%- if prev_step -%}
-      <a href="{{ prev_step.url | relative_url }}" class="config_previous">< Previous</a>
+      <a href="{{ prev_step.url | relative_url }}" class="slicer_previous">< Предыдущая</a>
       {%- endif -%}
-      <a href="{{ site.baseurl }}{% link 6-configuration.md %}" class="config_home">Home</a>
+      <a href="{{ site.baseurl }}{% link 2-boitier3d.md %}" class="slicer_home">Первая страница</a>
       {%- if next_step -%}
-      <a href="{{ next_step.url | relative_url }}" class="config_next">Next ></a>
+      <a href="{{ next_step.url | relative_url }}" class="slicer_next">Следующая ></a>
       {%- else -%}
         {%- if page.description == "Introduction" -%}
-          <a href="{{ first_step.url | relative_url }}" class="config_next">Next</a>
+          <a href="{{ first_step.url | relative_url }}" class="slicer_next">Следующая</a>
         {%- endif -%}
       {%- endif -%}  
     </ul>

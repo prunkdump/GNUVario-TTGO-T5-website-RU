@@ -1,28 +1,28 @@
 ---
 step: 2
-description: Software configuration
+description: Программная конфигурация
 ---
 
-There are 3 methods to configure your variometer with your personal parameters
+Есть 3 способа настройки вариометра с вашими личными параметрами.
 
-**a) The web page**
+**a) Через web интерфейс**
 
-The easiest way to configure your GnuVario-E is to use the on-board web page and Wifi mode.
-This will automatically update the configuration files on the sdcard.
-This functionality is described in the [user manual]({{site.baseurl}}{% link 7-manuel.md%}).
+Самый простой способ настроить GnuVario-E - использовать встроенную веб-страницу и режим Wi-Fi.
+Это автоматически обновит файлы конфигурации на SD-карте.
+Эта функция описана в [руководстве пользователя]({{site.baseurl}}{% link 7-manuel.md%}).
 
-**b) Configuration files on the SD card**
+**b) Файлы конфигурации на SD карте**
 
-These files are located at the root of the SD card; they are described in more detail at the bottom of this page.
-They allow you to configure the GNUVario without having to recompile the code.
-- params.jso: contains the general parameters of the GNUVario.
-- wifi.cfg: contains the connection information to the wifi network; you can declare up to 4 different wifi networks.
-- variocal.cfg: contains the GNUVario calibration information. See the [user manual]({{site.baseurl}}{% link 7-manuel.md%}) for the calibration operation.
+Эти файлы находятся в корне SD-карты; они описаны более подробно на следующей странице.
+И позволяют настраивать GNUVario без перекомпиляции кода.
+- params.jso: содержит общие параметры GNUVario.
+- wifi.cfg: содержит информацию о подключении к сети Wi-Fi; вы можете сохранить до 4 различных сетей Wi-Fi.
+- variocal.cfg: содержит информацию о калибровке GNUVario. См. [Руководство пользователя]({{site.baseurl}}{% link 7-manuel.md%}) для калибровки.
 
-**c) The VarioSettings.h file**
+**c) Файл VarioSettings.h**
 
-This method is reserved for experienced users who wish to use non-standard material or recompile the code.
+Этот метод предназначен для опытных пользователей, которые хотят использовать нестандартные комплектующие или перекомпилировать код.
 
-If you do not want to use an SD card, you can modify the libraries / VarioSettings / VarioSettings.h file to customize your vario. Using this file requires recompiling the code.
+Если вы не хотите использовать SD-карту, вы можете изменить файл library / VarioSettings / VarioSettings.h, чтобы настроить свой вариометр. Использование этого файла требует перекомпиляции кода.
 
-[libraries/VarioSettings/VarioSettings.h](https://github.com/prunkdump/GNUVario-TTGO-T5/tree/master/Sources/Beta%20Code/libraries/VarioSettings/VarioSettings.h)
+[libraries/VarioSettings/VarioSettings.h](https://github.com/prunkdump/GNUVario-TTGO-T5/blob/master/Sources/Beta%20Code/Arduino/libraries/VarioSettings/VarioSettings.h)

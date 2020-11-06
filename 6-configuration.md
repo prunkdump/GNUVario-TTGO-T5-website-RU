@@ -1,9 +1,9 @@
 ---
 layout: config
-title: Configuration
+title: Конфигурация
 description: Introduction
 ---
 
-This chapter describes the configuration of the GnuVario-E
+В этой главе описывается конфигурация GnuVario-E.
 
 {% include configimg.md name="config.jpg" %}

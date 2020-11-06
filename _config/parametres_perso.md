@@ -1,187 +1,187 @@
 ---
 step: 3
-description: List of customizable parameters
+description: Список настраиваемых параметров
 ---
 
 ### params.jso #
 
-It is a file in json format, which allows you to customize the operation of GnuVario.
+Это файл в формате json, позволяет настраивать работу GnuVario.
 
-The main parameters of this file are:
+Основные параметры этого файла:
 
 **system - SLEEP_TIMEOUT_MINUTES**
 
-default: 20 minutes
-standby after X minutes of inactivity
+default: 20 минут
+переход в режим ожидания через Х минут бездействия
 
 **system - SLEEP_THRESHOLD_CPS**
 
-default: 0.5 m
-activity trigger threshold (equivalent to +0.5 Vz)
+default: 0.5 м. 
+порог срабатывания активности (эквивалент +0.5 Vz)
 
 **system - ALARM_SDCARD**
 
-1 = Alarm beep indicating that the SD card is not present
+1 = Звуковой сигнал, указывающий на то, что SD-карта отсутствует
 
 **system - ALARM_GPSFIX**
 
-1 = Beep indicating that the GPS is operational
+1 = Звуковой сигнал, указывающий, что GPS зафиксировался
 
 **system - ALARM_FLYBEGIN**
 
-1 = Beep indicating the start of flight recording
+1 = Звуковой сигнал, указывающий на начало записи полета
 
 **system - NO_RECORD**
 
 default: 0
-1 = deactivation of recording on the SDcard
+1 = отключение записи на SD-карту лога полета
 
 **system - BT_ENABLE**
 
 default: 0
-1 = Bluetooth enabled
+1 = включение Bluetooth
 
 **system - COMPENSATION_TEMP**
 
 default: -6
-temperature compensation
+температурная компенсация
 
 **system - COMPENSATION_GPSALTI**
 
 default: -30
-Gps altitude compensation
+Компенсация высоты GPS
 
 **system - MULTIDISPLAY_DURATION**
 
 default: 2000 milliseconds
-Alternative display time of the different pages (in milliseconds)
+Альтернативное время отображения разных страниц (в миллисекундах)
 
 **system - DEFAULT_DISPLAY_STAT_DURATION**
 
 default: 6
-Duration in seconds of display time of the "statistics" page
+Продолжительность в секундах времени отображения страницы «статистика»
 
 **system - URL_UPDATE**
 
 default: http://gnuvario-e.yj.fr/update/firmware.json
-Path to update storage site
+Путь к сайту хранилища обновлений
 
 **general - TIME_ZONE**
 
-Defines the UTC time zone: France: (+2) in summer (+1) in winter
+Определяет часовой пояс UTC: Франция: (+2) летом (+1) зимой
 
 **general - PILOT_NAME**
 
-Pilot name
+Имя Пилота
 
 **general - GLIDER_NAMEx**
 
-x from 1 to 4: Allows you to enter 4 names of wing
+x от 1 до 4: позволяет ввести 4 названия крыла
 
 **general - GLIDER_SELECT**
 
-Allows you to choose 1 wing, among the 4 possible
+Позволяет выбрать 1 крыло из 4 возможных
 
 **vario - SINKING_THRESHOLD**
 
 default: -2.0
-Triggering sinking threshold
+Срабатывание порога снижения
 
 **vario - CLIMBING_THRESHOLD**
 
 default: 0.2
-trigger climbing threshold
+порог срабатывания на подъем
 
 **vario - NEAR_CLIMBING_SENSITIVITY**
 
 default: 0.5
-Zero zone
+Нулевая зона
 
-from -10 to -2.0 low gross sound
-from -2.0 to 0.2 no sound
-from 0.2 to 0.5 zero beep
-0.5 to 10 rise beeps
+от -10 до -2.0 низкий грубый звук
+от -2.0 до 0.2 без звука
+от 0.2 до 0.5 нулевой сигнал
+0.5 до 10 восходящие сигналы
 
 **vario - ENABLE_NEAR_CLIMBING_ALARM**
 
 default: 0
-1 = Near climb alarm: signals that you are entering or leaving the near climb zone
+1 = Сигнал о приближении к термику: сигнализирует, что вы входите или покидаете зону ближнего термика
 
 **vario - ENABLE_NEAR_CLIMBING_BEEP**
 
 default: 0
-1 = “thermal  sniffer”  function: beep when you are in an area between VARIOMETER_CLIMBING_THRESHOLD and VARIOMETER_NEAR_CLIMBING_SENSITIVITY
+1 = Функция «тепловой анализатор»: подавать звуковой сигнал, когда вы находитесь в зоне между VARIOMETER_CLIMBING_THRESHOLD и VARIOMETER_NEAR_CLIMBING_SENSITIVITY
 
 **vario - DISPLAY_INTEGRATED_CLIMB_RATE**
 
 default: 0
-1 = Display of the average sink rate over a period
-0 = Display of instantaneous sink rate
+1 = Отображение средней скорости снижения за период
+0 = Отображение мгновенной скорости снижения
 
 **vario - CLIMB_PERIOD_COUNT**
 
 default: 10
-integration time for calculating the sink rate
+время интегрирования для расчета скорости снижения
 
 **vario - SETTINGS_GLIDE_RATIO_PERIOD_COUNT**
 
 default: 20
-sink rate display frequency
+частота отображения скорости снижения
 
 **vario - RATIO_CLIMB_RATE**
 
 default: 2
-1 = Display of the glide ratio
-2 = Display of the average sink rate
-3 = Display of the both information alternately
+1 = Отображение коэффициента планирования
+2 = Отображение средней скорости снижения
+3 = Отображение обеих данных поочередно
 
 **vario - RATIO_MAX_VALUE**
 
 default: 30.0
-max value used in calculating the sink rate
+максимальное значение, используемое при расчете скорости снижения
 
 **vario - RATIO_MIN_SPEED**
 
 default: 10.0
-minimum speed value used in calculating the sink rate
+минимальное значение скорости, используемое при расчете скорости снижения
 
 **vario - SENT_LXNAV_SENTENCE**
 
 default: 1
-Bluetooth transmission format
+Bluetooth формат передачи
 1 = LXNAV
 0 = LK8000
 
 **flightstart - FLIGHT_START_MIN_TIMESTAMP**
 
 default: 15000 milliseconds
-Minimum time between instrument switch on and flight start, in milliseconds
+Минимальное время между включением прибора и началом полета, в миллисекундах
 
 **flightstart - FLIGHT_START_VARIO_LOW_THRESHOLD**
 
 default: 0.5
-Minimum vertical speed in m/s (low/high threshold) to trigger recording
+Минимальная вертикальная скорость в м/с (порог спуска / подъема) для начала записи
 
 **flightstart - FLIGHT_START_VARIO_HIGH_THRESHOLD**
 
 default: 0.5
-Minimum vertical speed in m/s (low/high threshold) to trigger recording
+Максимальная вертикальная скорость в м/с (порог спуска / подъема) для начала записи
 
 **flightstart - FLIGHT_START_MIN_SPEED**
 
 default: 8 km/h
-Minimum ground speed in km/h triggering flight recording
+Минимальная скорость относительно земли в км/ч для начала записи полета
 
 **flightstart - VARIOMETER_RECORD_WHEN_FLIGHT_START**
 
 default: 1
-0 = deactivated, recording starts as soon as the GPS is fixed 
-1 = Activated, recording will start upon detection of the start of flight (horizontal speed greater than FLIGHT_START_MIN_SPEED and horizontal speed less than FLIGHT_START_VARIO_LOW_THRESHOLD or greater than FLIGHT_START_VARIO_HIGH_THRESHOLD
+0 = деактивирован, запись начнется, как только будет зафиксирован GPS
+1 = активировано, запись начнется при обнаружении начала полета (горизонтальная скорость больше FLIGHT_START_MIN_SPEED и вертикальная скорость больше FLIGHT_START_VARIO_LOW_THRESHOLD или меньше FLIGHT_START_VARIO_HIGH_THRESHOLD
 
 ### wifi.cfg #
 
-This file contains the wifi connection parameters.
-You can configure up to 4 wifi networks
+Этот файл содержит параметры подключения Wi-Fi.
+Вы можете настроить до 4 сетей Wi-Fi
 
 **SSID_1**
 
@@ -193,7 +193,7 @@ SSID of the first Wifi network
 default: your_PASSWORD_for SSID1
 Password of the first Wifi network
 
-**SSID_2**
+**SSID_2**<br>
 **PASSWORD_2**
 
 
@@ -206,7 +206,7 @@ Password of the first Wifi network
 
 ### variocal.cfg #
 
-This file contains the GNUVario calibration values.
+Этот файл содержит значения калибровки GNUVario.
 
 **VERTACCEL_GYRO_CAL_BIAS_00**
 
@@ -300,82 +300,82 @@ default: 5
 
 ### log.cfg #
 
-This file contains the debugging configuration values.
+Этот файл содержит значения конфигурации отладки.
 
 **LOG_ENABLE**
 
 default: 1
-Debugger activation
+Debugger активация
      
 **LOG_SERIAL_ENABLE**
 
 default: 1
-Activation of messages on the serial port
+Активация сообщений в последовательный порт
      
 **LOG_SD_ENABLE**
 
 default: 1
-Activation of messages on the SdCard
+Активация сообщений на SD карту
       
 **LOG_DEBUG_ENABLE**
 
 default: 1
-Activation of messages in ESP32 debug mode
+Активация сообщений в режиме отладки ESP32
 
 **MAIN_DEBUG**
 
 default: 0
-Activation of main program messages
+Активация основных программных сообщений
 
 **SCREEN_DEBUG**
 
 default: 0
-Activation of messages concerning screen management
+Активация сообщений об управлении экраном
 
 **GPS_DEBUG**
 
 Default: 0
-Activation of messages concerning GPS
+Активация сообщений GPS
 
 **BUTTON_DEBUG**
 
 Default = 0
-Activation of messages concerning button management
+Активация сообщений относительно управления кнопками
 
 **MS5611_DEBUG**
 
 Default: 0
-Activation of messages concerning the barometric sensor
+Активация сообщений о барометрическом датчике
 
 **MPU_DEBUG**
 
 Default: 0
-Activation of messages concerning accelerometers, gyroscope, ...
+Активация сообщений об акселерометрах, гироскопе, ...
  
 **SDCARD_DEBUG**
 
 Default: 0
-Activation of messages concerning the SD card
+Активация сообщений о SD-карте
 
 **BT_DEBUG**
 
 Default: 0
-Activation of messages concerning Bluetooth
+Активация сообщений Bluetooth
 
 **WIFI_DEBUG**
 
 Default: 0
-Activation of messages concerning WiFi
+Активация сообщений о WiFi
 
 **SOUND_DEBUG**
 
 Default: 0
-Sound messages activation
+Активация звуковых сообщений
 
 **DEEPSLEEP_DEBUG**
 
 Default: 1
-Activation of messages concerning standby mode  
+Активация сообщений о режиме ожидания
 
 
 
