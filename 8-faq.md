@@ -5,7 +5,7 @@ description: FAQ
 css-add: accordion
 ---
 
-**FAQ**. This is the list of the most frequently asked questions.
+**FAQ**. Это список наиболее часто задаваемых вопросов.
 
 <section class="faq">
 	{% for item in site.faq %}

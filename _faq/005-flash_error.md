@@ -1,14 +1,14 @@
 ---
-description: Error during flashing
+description: Ошибка при перепрошивке
 ---
 
-- Start the vario with the switch, before connecting it to the PC via the USB socket, then start the compilation / flashing operation.
-- If this does not work: start the vario just when flashing will start, whether with the Arduino IDE, the PlatformIO IDE, or the 'Flash tools'.
+- Включите вариометр с помощью переключателя, прежде чем подключить его к ПК через разъем USB, затем запустите операцию компиляции / прошивки.
+- Если это не сработает: включите вариометр, как только начнется перепрошивка, будь то Arduino IDE, PlatformIO IDE или «Flash tools».
 
-For example, with the **IDE Arduino**:
-wait for the line "Linking everything together ...", then switch on the vario.
-It is even possible to wait for the message "the selected serial port does not exist or your Arduino is not connected _____....._____....." to turn on the vario.
+Например, с **IDE Arduino**:
+дождитесь строки «Linking everything together ...», затем включите вариометр.
+Можно даже дождаться сообщения «выбранный последовательный порт не существует или ваш Arduino не подключен _____....._____.....», чтобы включить вариометр.
 
-another example, with **PlatformIO**:
-wait for the line "Linking .pio \ build \ esp32dev \ firmware.elf", then switch on the vario.
-It is even possible to wait for the message "Connecting ........_____....._" to switch on the vario.
+другой пример с **PlatformIO**:
+дождитесь строки «Linking .pio \ build \ esp32dev \ firmware.elf», затем включите вариометр.
+Можно даже дождаться сообщения «Connecting ........_____....._», чтобы включить вариометр.

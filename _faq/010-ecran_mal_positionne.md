@@ -1,8 +1,8 @@
 ---
-description: E-Paper screen improperly positioned in the case
+description: Экран E-Paper неправильно расположен в корпусе
 ---
 
-The E-Paper screen is glued to the double-sided tape on the PCB on TTGO T5.
-It happens that the screen is stuck crookedly with the construction; it is possible to peel it off using a small fine cutter, and to reposition it. You can put a little alcohol on the blade to dissolve the glue.
+Экран E-Paper приклеен на двухсторонний скотч к печатной плате TTGO T5.
+Бывает, что экран криво встает в корпус; его можно снять с помощью небольшого ножа и переместить. Можно смазать лезвие спиртом, чтобы растворялся клей.
 
-**WARNING**. The screen is very thin and very fragile; it can be easily broken during this operation. In particular, do not put pressure on the screen with the cutter.
+**ПРЕДУПРЕЖДЕНИЕ** Экран очень тонкий и очень хрупкий; его можно легко сломать во время этой операции. Не давите на экран ножом.

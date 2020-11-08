@@ -1,12 +1,12 @@
 ---
-description: No automatic update
+description: Нет автоматического обновления
 ---
 
-No automatic update is presented.
+Нет автоматического обновления.
 
 {% include faqimg.md name="maj_internet.jpg" %}
        
-Check in the configuration parameters that the URL of the resource site is correct    
+Проверьте в параметрах конфигурации правильность URL-адреса сайта обновлений. 
 
 http://gnuvario-e.yj.fr/webupdate/checkversion       
 
