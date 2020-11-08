@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Download
-description: Téléchargement
-linkmsg: Click to access downloads  
+title: Загрузки
+description: Скачать
+linkmsg: Нажмите, чтобы получить доступ к загрузкам 
 linktarget: "http://gnuvario-e.yj.fr"
 ---
-**[Page de téléchargement](http://gnuvario-e.yj.fr){%include downloadimg.md name="download.png"%}**
+**[Страница загрузки](http://gnuvario-e.yj.fr)<br>{%include downloadimg.md name="download.png"%}**
