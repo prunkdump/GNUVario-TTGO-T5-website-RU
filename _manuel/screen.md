@@ -8,7 +8,7 @@ description: Описание экранов
 
 {%include manuelimg.md name="ecran291.png"%}
 
-## **Первый экран*{: style="color:   #138ca2; opacity: 1;" }
+## ** Первый экран*{: style="color:   #138ca2; opacity: 1;" }
 
 Ожидание фиксации GPS
 
