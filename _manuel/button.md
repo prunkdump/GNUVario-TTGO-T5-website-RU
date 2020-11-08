@@ -1,62 +1,62 @@
 ---
 step: 2
-title: Manual
-description: Pushbuttons
+title: Руководство
+description: Функции кнопок
 ---
 
-## **Functions**{: style="color:   #138ca2; opacity: 1;" }                                                                                     
+## **Функции**{: style="color:   #138ca2; opacity: 1;" }                                                                                     
  
-| Screen        | Button    | Function                                                         |
+| Экран         | Кнопка    | Функция                                                          |
 | ------------- | : -------:| --------------------------------------------------------------   |
-| Init          | Left      | switching to Wifi mode                                           |
-| Init          | Right     | Calibration                                                      |
+| Инициализация | Левая     | Переключение в режим Wifi                                        |
+| Инициализация | Прававя   | Переключение в режим Калибровки                                  |
 |               |           |                                                                  |
-| Vario         | Center    | Mute and Mute                                                    |
-| Vario         | Center 3s | Standby mode                                                     |
-| Vario         | Left      | previous screen                                                  |
-| Vario         | Left      | Starting flight start manually (when GPS is attached             |
-| Vario         | Left 2s   | Altitude calibration with AGL                                    |
-| Vario         | Right     | next screen                                                      |
+| Вариометр     | Центр     | вкл/выкл звук                                                    |
+| Вариометр     | Центр 3с  | Переход в режим сна                                              |
+| Вариометр     | Левая     | Предыдущий экран                                                 |
+| Вариометр     | Левая     | Запуск записи полета в ручную (когда GPS зафиксирован)           |
+| Вариометр     | Левая 2с  | Сброс высоты на 0 в ячейке AGL                                   |
+| Вариометр     | Правая    | Следующий экран                                                  |
 |               |           |                                                                  |
-| Wifi          | Left      | Exit WiFi mode                                                   |
+| Wifi          | Левая     | Выход из режима WiFi                                             |
 |               |           |                                                                  |
-| Sound         | Left      | lower the volume                                                 |
-| Sound         | Right     | Turn up the volume                                               |
-| Sound         | Center    | Enter the configuration / Validate the configuration             |
+| Звук          | Левая     | Уменьшение звука                                                 |
+| Звук          | Правая    | Увеличение звука                                                 |
+| Звук          | Центр     | Нажать для настройки звука и для ее окончания                    |
 |               |           |                                                                  |
-| Sleep         | Left      | Validates standby                                                |
+| Сон           | Левая     | Подтверждение перехода в режим сна                               |
 |               |           |                                                                  |
-| Calibration   | Center    | Start calibration                                                |
-| Calibration   | Left      | Exit calibration mode (reboot)                                   |
+| Калибровка    | Центр     | Начать калибровку                                                |
+| Калибровка    | Левая     | Выход из режима калибровки                                       |
  
 	
-## **The start screen (Init) :**{: style="color:   #138ca2; opacity: 1;" }
+## **Начальный экран (Инициализация) :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291init.png" %}
 
 
 
 
-## **Wifi page :**{: style="color:   #138ca2; opacity: 1;" }
+## **Экран Wifi :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291wifireboot.png" %}
 
 
-## **Main page :**{: style="color:   #138ca2; opacity: 1;" }
+## **Главный экран (Вариометр) :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291mainpage.png" %}
 
 
-## **Volume adjustment page (Sound) :**{: style="color:   #138ca2; opacity: 1;" }
+## **Экран настройки звука (Звук) :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291sound.png" %}
 
 
-## **Deep sleep page :**{: style="color:   #138ca2; opacity: 1;" }
+## **Экран глубокого сна :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291standby.png" %}
 
 
-## **Calibration page  :**{: style="color:   #138ca2; opacity: 1;" }
+## **Экран калибровки :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291calib2.png" %}

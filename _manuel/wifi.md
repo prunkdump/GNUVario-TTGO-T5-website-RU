@@ -1,21 +1,20 @@
 ---
 step: 4
-title: Manual
+title: Руководство
 description: Wifi
 ---
 
-The Gnuvario-E has a web server, which will allow you to configure the Gnuvario, update it,
-  recover flight files but also copy or recover files on the SDCard
+В Gnuvario-E есть веб-сервер, который позволит вам настраивать Gnuvario, обновлять его, копировать файлы полетов, а также копировать файлы на SDCard.
  
 {% include manuelimg.md name = "ecran291wifireboot.png"%}
 
-**WiFi settings**
+**Настройки WiFi**
 
-Before you can use Wifi with the Gnuvario-E, you must indicate the SSID and password of your Box or your phone
+Прежде чем вы сможете использовать Wi-Fi с Gnuvario-E, вы должны указать SSID и пароль вашего роутера или телефона.
 
-Complete the information in the wifi.cfg file. You can specify up to 4 different WiFi networks.
+Заполните информацию в файле wifi.cfg. Вы можете указать до 4 различных сетей Wi-Fi.
 
-If you do not want to use the SD card, you will have to complete the variosettings.h file (requires compilation of the code).
+Если вы не хотите использовать SD-карту, вам нужно будет заполнить файл variosettings.h (требуется компиляция кода).
 
 
 #define DEFAULT_VARIOMETER_SSID_1													"your_SSID1"   
@@ -30,17 +29,17 @@ If you do not want to use the SD card, you will have to complete the variosettin
 #define DEFAULT_VARIOMETER_SSID_4													"your_SSID4"   
 #define DEFAULT_VARIOMETER_PASSWORD_4											"your_PASSWORD_for SSID4"   
 
-**Switching to Wifi mode**
+**Переключение в режим Wifi**
 
-At startup, press the left button
+При запуске нажмите левую кнопку
 
-As soon as the Gnuvario-E is connected to the Wifi network, the address of the web page is displayed on the screen:
+Как только Gnuvario-E подключается к сети Wi-Fi, на экране отображается адрес веб-страницы:
 
 
 
-**Connection to the web page**
+**Подключение к веб-странице**
 
-In your web browser, login with the IP address provided.
+Запустите свой веб-браузер и перейдите по указанному IP-адресу.
 
 
 

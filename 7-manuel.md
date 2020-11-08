@@ -1,11 +1,11 @@
 ---
 layout: manuel
-title: Manual
+title: Руководство
 description: Introduction
-linkmsg: Description!
+linkmsg: Описание!
 linktarget: "http://gnuvario-e.yj.fr/fichier/fiche_gnuVario-E.pdf"
 ---
 
-This is the manual that will help you get the most out of your Gnuvario-E.
+Это руководство поможет вам максимально эффективно использовать Gnuvario-E.
 
 {% include manuelimg.md name="GOPR0665.jpg" %}

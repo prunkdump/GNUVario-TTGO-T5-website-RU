@@ -1,41 +1,39 @@
 ---
 step: 1
-title: Manual
-description: Screen description 
+title: Руководство
+description: Описание экранов
 ---
 
-You can switch between four screens on your variometer using the left and right buttons
+Вы можете переключаться между четырьмя экранами вариометра с помощью левой и правой кнопок.
 
 {%include manuelimg.md name="ecran291.png"%}
 
-## **First screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Первый экран*{: style="color:   #138ca2; opacity: 1;" }
 
-Waiting GPS location
+Ожидание фиксации GPS
 
 |                                  |        	    |		{%include manuelimg.md name="GPSresearch.png"%}
 
-GPS location is fixed, waiting flight start. Number of bars proportional to the GPS signal quality.
+Местоположение по GPS зафиксировано, ожидание начала полета. Количество полосок, пропорциональное качеству сигнала GPS.
 
 |                                  |        	     |		{%include manuelimg.md name="GPSfixed.png"%}
 
-Flight recording (manual by pressing the left button or automatic depending on your settings).
+Запись полета (ручная нажатием левой кнопки или автоматическая в зависимости от ваших настроек).
 
 |                                  |     		    |		{%include manuelimg.md name="GPSrecording.png"%}
 	
 
-The other icons indicate the volume level, the battery status and if bluetooth is activated.
+Остальные значки показывают уровень громкости, состояние батареи и активирован ли Bluetooth.
 
-1/Altitude (sea level) and AGL (ground level) are displayed alternately. Be sure to have downloaded your AGL data for your area in the SDcard AGL folder.
+1. Высота (над уровнем моря) и AGL (над уровнем земли) отображаются попеременно. Обязательно загрузите данные AGL для вашего региона в папку SDcard AGL.
 
-2/The up/down indication arrow gives integrated information on associated X sec at the sink rate.
+2. Стрелка индикации вверх/вниз дает интегрированную информацию о подъеме или снижении.
 
-3/The time and the flight time are displayed alternately, the time is indicated with an "h" (12:36) and the flight time with ":" (05:21).
-When the flight duration is less than 1 hour the indication is "min: sec".
-After 1 hour flight we have "hour: min".
+3. Время и время полета отображаются попеременно, время обозначается буквой «h» (12:36), а время полета - знаком «:» (05:21). Если продолжительность полета меньше 1 часа, отображается «мин: сек». После 1 часа полета «час: мин».
 
-4/The glide ratio and the sink rate can be configured to have only one information of your choice or both alternately.
+4. Качество планирования и скорость снижения могут быть настроены так, чтобы отоюражать только одну информацию по вашему выбору или обе поочередно.
 
-5/Without GPS location and/or when your speed is lower than 5 km/h, the displayed heading is the magnetic heading (like a compass). With GPS and when your speed is higher than 5km/h, the heading is the direction of your movement.
+5. Без GPS и/или когда ваша скорость ниже 5 км/ч, отображаемый курс является магнитным курсом (по компасу). С GPS и когда ваша скорость превышает 5 км/ч, курс является направлением вашего движения.
 
 
 
@@ -43,29 +41,29 @@ After 1 hour flight we have "hour: min".
 
 
 
-## **Second screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Второй экран**{: style="color:   #138ca2; opacity: 1;" }
 
-1/ Latitude and longitude of your location.
+1. Широта и долгота вашего местоположения.
 
-2/ Speed
+2. Скорость
 
-3/ Without GPS location and/or when your speed is lower than 5 km/h, the displayed heading is the magnetic heading (like a compass). With GPS and when your speed is higher than 5km/h, the heading is the direction of your movement.
+3. Без GPS и/или если ваша скорость ниже 5 км/ч, отображаемый курс является магнитным курсом (по компасу). С GPS и когда ваша скорость превышает 5 км/ч, курс является направлением вашего движения.
 
 
 |                                  |               |{%include manuelimg.md name="ecran291b.png"%}
 
 
-## **Third screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Третий экран**{: style="color:   #138ca2; opacity: 1;" }
 
-1/ Sound level
+1. Громкость
 
 
 |                                  |               |{%include manuelimg.md name="ecran291c.png"%}
 
 
-## **Fourth screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Четвертый экран**{: style="color:   #138ca2; opacity: 1;" }
 
-1/ Statistics
+1. Статистика крайнего полета
 
 
 |                                  |               |{%include manuelimg.md name="ecran291d.png"%}

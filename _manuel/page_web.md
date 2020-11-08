@@ -1,70 +1,70 @@
 ---
 step: 5
-title: Manual
-description: Web page
+title: Руководство
+description: Web сервер
 ---
 
-The GnuVario-E embeds a Web server; it is accessed after the wifi connection, via a web browser. See previous page of the manual.
+В GnuVario-E есть веб-сервер; доступ к нему осуществляется после подключения к сети Wi-Fi через веб-браузер. См. Предыдущую страницу руководства.
 
-The home page looks like this:
+Домашняя страница выглядит так:
 {%include manuelimg.md name="pageweb_01.jpg"%}
 
-or like this, if the screen width does not allow the display of all the menus.
+или так, если ширина экрана не позволяет отображать все меню.
 {%include manuelimg.md name="pageweb_02.jpg"%}
 
-In the latter case, simply click on the menu icon, at the top right, to access the menu.
+В последнем случае просто щелкните значок в правом верхнем углу, чтобы получить доступ к меню.
 
-The different menu options are described now.
+Теперь рассмотрим пункты меню детальней.
 
-### "My flights" menu
+### Меню "Мои полеты"
 
-This is the menu proposed by default. It lists the different IGC files of the flights saved on the SD card.
-For each flight, you can:
-- delete the recording
-- download it
-- view it briefly
+Этот раздел меню открывается по умолчанию. В нем отображается информация по различным файлам полетов IGC, сохраненные на SD-карте.
+Для каждого полета вы можете:
+- удалить трек
+- скачать
+- просмотреть кратко
 
 
 
-### "SD card" 
+### "SD карта" 
 
-Presents the contents of the SD card. Allows you to create / delete folders, download or upload files.
+Отображает содержимое SD-карты. Позволяет создавать / удалять папки, скачивать или загружать файлы.
 {%include manuelimg.md name="SDcard_01.jpg"%}
-#### Folders
-The files are proposed first. If you click on the title of a folder, you open it, and the included files are displayed; we see it in the previous screenshot, for the 'flights' folder.
-New files can be placed in a folder by clicking on the blue 'Download' icon; you can also delete a folder and all the files included by clicking on the red 'Delete' icon.
-#### Files
-The file can be downloaded to the computer by clicking on the green 'Download' icon; you can also delete the file by clicking on the red 'Delete' icon.
+#### Папки
+Если вы щелкните заголовок папки, вы откроете ее, и отобразятся находящиеся в ней файлы; мы видим это на предыдущем скриншоте для папки «полеты».
+Новые файлы можно загрузить в папку, щелкнув синий значок «Загрузить»; вы также можете удалить папку и все находящиеся в нее файлы, щелкнув красный значок «Удалить».
+#### Файлы
+Файл можно скачать на компьютер, нажав на зеленый значок «Скачать»; вы также можете удалить файл, нажав на красный значок «Удалить».
 
 ### "Wifi" 
 
-Allows you to specify the wifi networks to which the vario can potentially connect.
-It is possible to declare up to 4 wifi networks.
-The result is written on the SD card, in the file '/wifi.cfg'
+Позволяет указать сети Wi-Fi, к которым вариометр потенциально может подключаться.
+Можно сохранить до 4-х сетей Wi-Fi.
+Результат записывается на SD-карту в файл '/wifi.cfg'
 
-### "Configuration" 
+### "Конфигурация" 
 
-The options offered in this tab allow you to customize the operation of the vario; they are linked to the file '/params.jso' on the SD card.
-The parameters are described in the ['Configuration']({{site.baseurl}}/6-configuration.html) part of the GNUVario documentation.
+Параметры, отображаемые на этой вкладке, позволяют настраивать работу вариометра; они хранятся в файле '/params.jso' на SD-карте.
+Параметры описаны в разделе ['Конфигурация']({{site.baseurl}}/6-configuration.html) документации GNUVario.
 
-These parameters are divided into 4 tabs:
+Эти параметры разделены на 4 вкладки:<br>
 '_Général_' - '_Vario_' - '_Start of the flight_' - '_System_'
 {%include manuelimg.md name="configuration_01.jpg"%}
 - General
-Used to describe the sails or sails on which we are flying, and the name of the pilot.
-Mainly used for UGC flight recordings
+Используется для указания крыла, на котором мы летим, и имени пилота.
+В основном используется для записи полетов IGC
 - Vario
-Allows you to configure the operation of the vario: threshold for triggering beeps, and different options
+Позволяет настроить работу вариометра: порог срабатывания звуковых сигналов и различные параметры.
 - Flight start
-Defines the criteria that will allow the vario to determine that a flight has just started.
+Определяет критерии, которые позволят вариометру определить начало полета.
 - System
-Allows you to adjust various parameters relating to the operation of the vario: beeps when starting the vario, the flight, the fixed GPS, activation of flight recording, temperature compensation or GPS altitude, ...
+Позволяет настраивать различные параметры, относящиеся к работе вариометра: звуковые сигналы при включении вариометра, начале полета, фиксации GPS, температурная компенсация или высотная по GPS, ...
 
-### "Update" 
-Used to update the vario software.
-{%include manuelimg.md name="update_01.jpg"%}
-The update can be done 'locally', from a computer that has a desired firmware version.
+### "Обновление" 
+Используется для обновления прошивки вариометра.
+{%include manuelimg.md name="update_01.jpg"%}<br>
+Обновление можно выполнить «локально» с компьютера с нужной версией прошивки.
 
-It is also possible to automatically update the firmware from the web.
+Также возможно автоматическое обновление прошивки через Интернет.
 
-See the documentation dedicated to updating the vario.
+См. Документацию, посвященную обновлению вариометра.

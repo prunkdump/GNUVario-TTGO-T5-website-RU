@@ -1,56 +1,56 @@
 ---
 step: 7
-title: Manual
-description: Calibration
+title: Руководство
+description: Калибровка
 ---
 
-**It is important to calibrate the accelerometers**
+**Важно откалибровать акселерометры**
 
-The GnuVario-E incorporates an accelerometer, which must be calibrated.
+GnuVario-E имеет акселерометр, который необходимо откалибровать.
 
-First on Windows or Mac, install [Python version 2](https://www.python.org/). On Windows, be sure to check the option **add to PATH variable**.
+Сначала в Windows или Mac установите [Python version 2](https://www.python.org/). В Windows обязательно отметьте опцию **add to PATH variable**.
        
-Retrieve the code {% include lienfichier.md name = "calibration.zip" lien = "file / calibration.zip"%} which you will place in a folder named for example "calibration"
+Получите код {% include lienfichier.md name = "calibration.zip" lien = "file/calibration.zip"%}, который вы поместите в папку с именем, например, "калибровка"
       
-Copy the {% include lienfichier.md name = "variocal.cfg" lien = "file / variocal.cfg"%} file on the SD card
+Скопируйте {% include lienfichier.md name = "variocal.cfg" lien = "file/variocal.cfg"%} файл на SD карту
        
-Make sure your SD card is inside the variometer.
+Убедитесь, что ваша SD-карта находится внутри вариометра.
          
-Turn on the Gnuvario-E
-Enter calibration mode by pressing the right button at startup (at the init screen).
-You have a few seconds to place the vario flat and press the central button.
+Включите Gnuvario-E
+Войдите в режим калибровки, нажав правую кнопку при запуске (на экране инициализации).
+У вас есть несколько секунд, чтобы поставить вариометр на ровную поверхность и нажать центральную кнопку.
 
-**Wait for the 3 beeps** then start to rotate the vario in all directions
-You must make approximately 5 to 6 movements per side while waiting for the beep between each movement
-The more measurements you make, the more precise the calibration.
+**Дождитесь 3 звуковых сигналов** затем начните вращать вариометр во всех плоскостях.
+Вы должны сделать примерно 5-6 измерений на каждую плоскость вращения, ожидая звукового сигнала между каждым измерением.
+Чем больше измерений вы сделаете, тем точнее будет калибровка.
 
-**WARNING it is essential not to forget any side**
+**ВНИМАНИЕ, важно не забыть ни одной плоскости**
 
-At the end, press the left button of the vario to complete the calibration. The vario restarts.
+В конце нажмите левую кнопку вариометра, чтобы завершить калибровку. Варио перезапустится.
 
 <iframe width = "560" height = "315" src = "https://www.youtube.com/embed/6yxoZcxxzVY" frameborder = "0" allow = "autoplay; encrypted-media" allowfullscreen> </iframe>
 
-This will create a "RECORD **. CAL" file on the SD card. Copy this file to the "best-fit-calibration" folder and rename it if necessary as "RECORD00.IGC".
+Это создаст «RECORD**.CAL» на SD-карте. Скопируйте этот файл в папку «best-fit-calibration» и при необходимости переименуйте его в «RECORD00.IGC».
 
-Under Windows or Mac, launch the **Idle** Python and open the program "calibrage / calibrer.py". Press "F5" to execute.
+В Windows или Mac, запустите **Idle** Python и запустите программу "calibrage/calibrer.py". Нажмите "F5" для запуска.
     
 {%include manuelimg.md name="python_file.jpg"%}
 
-or
+или
       
 {% highlight shell_session%}
 c:> cd calibration
 c: \ calibration> python calibrate.py
 {% endhighlight%}
 
-On Linux, simply run:
+в Linux, просто запустите:
 
 {% highlight shell_session%}
 ~ $ cd Arduino / best-fit-calibration
 ~ / best-fit-calibration $ python2 calibrate.py
 {% endhighlight%}
       
-To complete the calibration, copy all the calibration parameters to the * variocal.cfg * file on the SD card
+Для завершения калибровки скопируйте все параметры калибровки в файл **/variocal.cfg** на SD-карте.
 
 {%include manuelimg.md name="Calibrate_python.jpg"%}
 

@@ -54,7 +54,7 @@ default: -30<br>
 **system - MULTIDISPLAY_DURATION**
 
 default: 2000 milliseconds<br>
-Альтернативное время отображения разных страниц (в миллисекундах)
+Время переключения данных когда в одной ячейке два значения (в миллисекундах)
 
 **system - DEFAULT_DISPLAY_STAT_DURATION**
 
@@ -110,7 +110,7 @@ default: 0<br>
 **vario - ENABLE_NEAR_CLIMBING_BEEP**
 
 default: 0<br>
-1 = Функция «тепловой анализатор»: подавать звуковой сигнал, когда вы находитесь в зоне между VARIOMETER_CLIMBING_THRESHOLD и VARIOMETER_NEAR_CLIMBING_SENSITIVITY
+1 = Функция «анализатор приближения к термику»: подавать звуковой сигнал, когда вы находитесь в зоне между VARIOMETER_CLIMBING_THRESHOLD и VARIOMETER_NEAR_CLIMBING_SENSITIVITY
 
 **vario - DISPLAY_INTEGRATED_CLIMB_RATE**
 
@@ -176,7 +176,7 @@ default: 8 km/h<br>
 
 default: 1<br>
 0 = деактивирован, запись начнется, как только будет зафиксирован GPS<br>
-1 = активировано, запись начнется при обнаружении начала полета (горизонтальная скорость больше FLIGHT_START_MIN_SPEED и вертикальная скорость больше FLIGHT_START_VARIO_LOW_THRESHOLD или меньше FLIGHT_START_VARIO_HIGH_THRESHOLD
+1 = активировано, запись начнется при обнаружении начала полета (горизонтальная скорость больше FLIGHT_START_MIN_SPEED и вертикальная скорость снижения больше FLIGHT_START_VARIO_LOW_THRESHOLD или подъема больше FLIGHT_START_VARIO_HIGH_THRESHOLD
 
 ### wifi.cfg #
 
