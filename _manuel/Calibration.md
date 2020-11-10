@@ -8,7 +8,12 @@ description: Калибровка
 
 GnuVario-E имеет акселерометр, который необходимо откалибровать.
 
-Сначала в Windows или Mac установите [Python version 2](https://www.python.org/). В Windows обязательно отметьте опцию **add to PATH variable**.
+Сначала в Windows или Mac установите [Python version 2 или version 3](https://www.python.org/). В Windows обязательно отметьте опцию **add to PATH variable**.
+
+Install python 'numpy' library:
+{% highlight shell_session %}
+c:>pip install numpy 
+{% endhighlight %}
        
 Получите код {% include lienfichier.md name = "calibration.zip" lien = "file/calibration.zip"%}, который вы поместите в папку с именем, например, "калибровка"
       
