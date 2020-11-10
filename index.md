@@ -29,7 +29,7 @@ Links :
 ---------
 * [GitHub](https://github.com/prunkdump/GNUVario-TTGO-T5)
 * [Форум](http://www.parapentiste.info/forum/developpements-hardware-software/diy-gnuvario-variometre-opensource-openhardware-arduino-t48334.0.html;new;topicseen#new)
-* [Сайт](https://prunkdump.github.io/GNUVario-TTGO-T5-website/)
+* [Сайт](https://prunkdump.github.io/GNUVario-TTGO-T5-website-RU/)
 * [Загрузки](http://gnuvario-e.yj.fr/#)
 
 Разработчики :
