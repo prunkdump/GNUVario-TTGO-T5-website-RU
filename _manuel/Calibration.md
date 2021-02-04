@@ -17,7 +17,7 @@ c:>pip install numpy
 
 Установка библиотеки на MacOS:
 {% highlight shell_session %}
-sudo pip3 install numpy 
+~ $ sudo pip3 install numpy 
 {% endhighlight %}
        
 Скачайте архив {% include lienfichier.md name = "calibration.zip" lien = "file/calibration.zip"%}, распакуйте в папку с именем, например, "calibration"
