@@ -14,8 +14,13 @@ Install python 'numpy' library:
 {% highlight shell_session %}
 c:>pip install numpy 
 {% endhighlight %}
+
+Установка библиотеки на MacOS:
+{% highlight shell_session %}
+sudo pip3 install numpy 
+{% endhighlight %}
        
-Получите код {% include lienfichier.md name = "calibration.zip" lien = "file/calibration.zip"%}, который вы поместите в папку с именем, например, "калибровка"
+Скачайте архив {% include lienfichier.md name = "calibration.zip" lien = "file/calibration.zip"%}, распакуйте в папку с именем, например, "calibration"
       
 Скопируйте {% include lienfichier.md name = "variocal.cfg" lien = "file/variocal.cfg"%} файл на SD карту
        
@@ -52,7 +57,7 @@ c: \ calibration> python calibrate.py
 
 {% highlight shell_session%}
 ~ $ cd Arduino / best-fit-calibration
-~ / best-fit-calibration $ python2 calibrate.py
+~ / best-fit-calibration $ python3 calibrate.py
 {% endhighlight%}
       
 Для завершения калибровки скопируйте все параметры калибровки в файл **/variocal.cfg** на SD-карте.
