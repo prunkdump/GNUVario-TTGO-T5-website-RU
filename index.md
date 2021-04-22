@@ -45,4 +45,4 @@ Links :
 
 Версия :
 ---------
-* Website 1.06p
+* Website 1.06r
