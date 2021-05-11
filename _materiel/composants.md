@@ -10,15 +10,15 @@ description: Компоненты
 
 или    
     
-* TTGO-T5 v2.4 with 2.9'' screen **GDEW029M06** from Good Display manufacturer 
+* TTGO-T5 v2.4 с экраном 2.9'' **GDEW029M06** от производителя Good Display 
 
 {% include materielimg.md name="TTGO_GDEW029M06.jpg" %}
 
-||||**WARNING !!!!**
+||||** ВНИМАНИЕ !!!!**
 
-Following Lilygo's replacement of the "historic" 2.9 "screen sold with the TTGO T5 V2.4, only this screen is supported with 2.9" firmware version!!! (in addition to the old version)
+После замены LiliGO первоначальной модели 2.9" экрана продаваемого с TTGO T5 V2.4, только этот экран будет поддерживаться версией прошивки 2.9" (дополнительно к старой версии экрана)
 
-So you have to buy a TTGO T5 V2.4 without screen and buy a Good Display **GDEW029M06** screen separately.
+Поэтому вам придется покупать TTGO T5 V2.4 без экрана и отдельно покупать экран Good Display GDEW029M06.
 
 * Ms5611 mpu9250 ( т.е., CJMCU-117 )
 
