@@ -47,11 +47,11 @@ collections:
     output: true
   materiel:
     output: true
-  code:
-    output: true
   slicer:
     output: true
   tutorials:
+    output: true
+  code:
     output: true
   manuel:
     output: true
@@ -76,12 +76,6 @@ defaults:
       title: Matériel
   - scope:
       path: ""
-      type: "code"
-    values:
-      layout: code
-      title: Code
-  - scope:
-      path: ""
       type: "slicer"
     values:
       layout: slicer
@@ -92,6 +86,12 @@ defaults:
     values:
       layout: tutorial
       title: Matériel
+  - scope:
+      path: ""
+      type: "code"
+    values:
+      layout: code
+      title: Code
   - scope:
       path: ""
       type: "manuel"
