@@ -37,9 +37,7 @@ collections:
   - materiel
   - slicer
   - tutorials
-  - logiciel
   - code
-  - config
   - manuel
   - faq
   - download
@@ -49,11 +47,7 @@ collections:
     output: true
   materiel:
     output: true
-  logiciel:
-    output: true
   code:
-    output: true
-  config:
     output: true
   slicer:
     output: true
@@ -82,22 +76,10 @@ defaults:
       title: Matériel
   - scope:
       path: ""
-      type: "logiciel"
-    values:
-      layout: logiciel
-      title: Logiciel
-  - scope:
-      path: ""
       type: "code"
     values:
       layout: code
       title: Code
-  - scope:
-      path: ""
-      type: "config"
-    values:
-      layout: config
-      title: Configuration
   - scope:
       path: ""
       type: "slicer"

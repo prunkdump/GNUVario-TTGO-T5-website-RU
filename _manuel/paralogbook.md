@@ -1,5 +1,5 @@
 ---
-step: 7
+step: 8
 title: Руководство
 description:  Online журнал полетов / Журнал полетов на Paragliding
 ---

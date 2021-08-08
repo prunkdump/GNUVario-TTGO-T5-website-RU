@@ -4,13 +4,14 @@ title: Оборудование
 description: Компоненты
 ---
 
-* Lilygo TTGO-T5 v2.4 1.54'' экран ( т.е., TTG T5 v2.4) 
+* Плата для разработки ESP32
+  * TTGO-T5 v2.4 1.54'' экран ( т.е., TTG T5 v2.4) 
 
 {% include materielimg.md name="TTGO-T5-v1-2.jpg" %}
 
 или    
     
-* TTGO-T5 v2.4 с экраном 2.9'' **GDEW029M06** от производителя Good Display 
+  * TTGO-T5 v2.4 с экраном 2.9'' **GDEW029M06** от производителя Good Display 
 
 {% include materielimg.md name="TTGO_GDEW029M06.jpg" %}
 
@@ -47,6 +48,13 @@ description: Компоненты
 ( Саморез с плоской головкой и крестообразным шлицем типа b для пластика )
 
 {% include materielimg.md name="vis.jpg" %}
+
+ или если вы предпочитаете ставить вставки
+
+  * 4 × вставки M3 × 4 mm + 4 × винта M3 × 20 mm с конической головкой
+
+    {% include materielimg.md name="vis-inserts.jpg" %}
+
 	 
 * Лента Velcro 15mm или 20mm
 

@@ -1,5 +1,5 @@
 ---
-step: 4
+step: 6
 title: Руководство
 description: Wifi
 ---

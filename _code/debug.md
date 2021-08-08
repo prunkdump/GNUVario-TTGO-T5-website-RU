@@ -15,11 +15,11 @@ description: Отладка
       
 #define ENABLE_DEBUG
      
-#define PROG_DEBUG // debug principal program
+#define PROG_DEBUG // отладка основной программы
       
-ENABLE_DEBUG allows to activate debugging.
+**ENABLE_DEBUG** позволяет активировать отладку
      
-Затем для каждого типа отслеживаемой информации мы определяем или не определяем их.
+Затем для каждого типа отслеживаемой информации мы определяем или комментируем.
 Сообщения отображаются в мониторе последовательного порта путем добавления строк в код.
 
 #ifdef SCREEN_DEBUG

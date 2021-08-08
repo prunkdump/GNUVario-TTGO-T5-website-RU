@@ -7,85 +7,57 @@ description: Библиотеки
 
 **Управление датчиками**
 
-AccelCalibrator: MPU calibration
-
+AccelCalibrator: Калибровка MPU
 IntTW: Управление
-
-kalmanvert: Kalman filter management
-
-LightInvensense: MPU9250 management
-
-MPU: MPU9250 management
-
-ms5611TW: MS5611 management
-
-NmeaParser: GPS analyzer
-
-SerialNmea: Capture of GPS and BT frames
-
+kalmanvert: Kalman filter 
+LightInvensense: управления MPU9250
+MPU: управления MPU9250
+ms5611TW: управления MS5611
+NmeaParser: парсер GPS
+SerialNmea: Обработка пакетов GPS and BT
 TwoWireScheduler:
-
-VarioCalibration: Management of sensor calibration
-
+VarioCalibration: Управление калибровкой сенсора
 vertaccel:
 
 **Управление экраном**
 
-Adafruit_GFX_Library: Library used for screen management
+Adafruit_GFX_Library: Библиотека, используемая для управления экраном
+GxEPD2: Библиотека, используемая для управления экраном
+figure: Управление отображением числовых полей
+various screen: Управление экраном
 
-GxEPD2: E-Paper screen management library
+**Настройка параметров**
 
-figure: Management of the display of numeric fields
-
-various screen: Screen management
-
-**PУправление параметрами**
-
-ArduinoJson: Library for managing json files
-
-HardwareConfig: Management of common hardware parameters
-
-HardwareConfigESP32: Management of hardware parameters related to ESP32
-
-VarioSetting: Management of user parameters
+ArduinoJson: Библиотека для работы с файлами json
+HardwareConfig: Содержит общие настройки оборудования
+HardwareConfigESP32: Содержит настройки оборудования связанные с ESP32
+VarioSetting: Содержит пользовательские настройки
 
 **Управление устройством**
 
-beeper: Vario sound management
+beeper: Управление звуком
+EepromHAL: Управление Flash памятья
+SdFat _-_ Adafruit_Fork: Управление SDcard
+sdcardHAL: Управление SDcard
+tone_esp32: Управление звуком совместимым с ESP32
+toneHAL: Управление звуком
+VarioButton: Управление кнопками
+VarioWebServer: Управление редактированием WebServer
+VarioWifiServer: Управление встроеным web-site
 
-EepromHAL: Flash memory management
+**Отладка**
 
-SdFat _-_ Adafruit_Fork: SDcard management library
+ArduinoTrace: DБиблиотека для управления функциями отладки
+DebugConfig: Настройки отображения отладочных сообщений
+VarioLog: Настройки файлов журналов (LOG)
 
-sdcardHAL: SDCard management
+**Инструменты**
 
-tone_esp32: Sound management compatible with ESP32
+esp32FOTA2: Управление обновлениями через интернет
+utility: Различные функции
+VarioStat: Управление статистикой полетов
 
-toneHAL: Sound management
-
-VarioButton: Button management
-
-VarioWebServer: Library Edit WebServer
-
-VarioWifiServer: Management of the embedded website
-
-**Debugging**
-
-ArduinoTrace: Debug functions management library
-
-DebugConfig: Management of the display of debug messages
-
-VarioLog: Management of log files
-
-**Tools**
-
-esp32FOTA2: Management of updates via the internet
-
-utility: Various functions
-
-VarioStat: Management of flight statistics
-
-**Link to the libraries used** 
+**Ссылка на используемые библиотеки** 
 
 [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library/)            
 [ArduinoJson](https://github.com/bblanchon/ArduinoJson)      
@@ -94,5 +66,4 @@ VarioStat: Management of flight statistics
 [esp32FOTA](https://github.com/chrisjoyce911/esp32FOTA)        
 [GxEPD2](https://github.com/ZinggJM/GxEPD2)       
 [SdcardHAL](https://github.com/jpg63/SdcardHAL)          
-[SdFat](https://github.com/adafruit/SdFat)       
-  
+[SdFat](https://github.com/adafruit/SdFat)         
