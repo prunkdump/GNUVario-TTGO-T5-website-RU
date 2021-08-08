@@ -7,17 +7,17 @@ description: Библиотеки
 
 **Управление датчиками**
 
-AccelCalibrator: Калибровка MPU
-IntTW: Управление
-kalmanvert: Kalman filter 
-LightInvensense: управления MPU9250
-MPU: управления MPU9250
-ms5611TW: управления MS5611
-NmeaParser: парсер GPS
-SerialNmea: Обработка пакетов GPS and BT
-TwoWireScheduler:
-VarioCalibration: Управление калибровкой сенсора
-vertaccel:
+AccelCalibrator: Калибровка MPU   
+IntTW: Управление   
+kalmanvert: Kalman filter     
+LightInvensense: управления MPU9250   
+MPU: управления MPU9250   
+ms5611TW: управления MS5611   
+NmeaParser: парсер GPS    
+SerialNmea: Обработка пакетов GPS and BT    
+TwoWireScheduler:   
+VarioCalibration: Управление калибровкой сенсора    
+vertaccel:    
 
 **Управление экраном**
 
