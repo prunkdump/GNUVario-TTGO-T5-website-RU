@@ -7,7 +7,7 @@ description: Arduino IDE
 
 Далее нужно добавть библиотеки ESP32 в Arduino IDE. Для этого:
 
-Перейдите на вкладку **"File"**, затем **"Preferences"** среды IDE и добавьте URL-адрес **https://dl.espressif.com/dl/package_esp32_index.json** к URL-адресам дополнительных плат.
+Перейдите на вкладку **"File"**, затем **"Preferences"** среды IDE и добавьте URL-адрес **https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json** к URL-адресам дополнительных плат.
 
 ![GitHub zip download]({{"/assets/code_img/code11.jpg" | absolute_url}})
 
